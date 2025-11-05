@@ -4,7 +4,7 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-import QtQuick 2.1
+import QtQuick
 //for Settings
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kirigami 2.2 as Kirigami

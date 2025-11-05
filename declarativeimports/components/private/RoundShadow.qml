@@ -16,7 +16,7 @@ Properties:
         TODO needs more info??
 **/
 
-import QtQuick 2.1
+import QtQuick
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 Item {

@@ -6,9 +6,9 @@
 
 pragma Singleton
 
-import QtQuick 2.1
-import QtQuick.Layouts 1.2
-import QtQuick.Window 2.2
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Window
 import QtQuick.Controls 2.2
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kirigami 2.5 as Kirigami

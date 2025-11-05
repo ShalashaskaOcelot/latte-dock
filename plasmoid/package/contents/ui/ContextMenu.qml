@@ -4,7 +4,7 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-import QtQuick 2.0
+import QtQuick
 
 import org.kde.plasma.plasmoid 2.0
 
@@ -124,7 +124,7 @@ PlasmaComponents.ContextMenu {
 
         // QMenu does not limit its width automatically. Even if we set a maximumWidth
         // it would just cut off text rather than eliding. So we do this manually.
-        var textMetrics = Qt.createQmlObject("import QtQuick 2.4; TextMetrics {}", menu);
+        var textMetrics = Qt.createQmlObject("import QtQuick; TextMetrics {}", menu);
         var maximumWidth = theme.mSize(theme.defaultFont).width * 22;
 
         sections.forEach(function (section) {

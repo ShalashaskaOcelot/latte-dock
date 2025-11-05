@@ -5,7 +5,7 @@
 */
 
 
-import QtQuick 2.0
+import QtQuick
 
 import org.kde.plasma.plasmoid 2.0
 import org.kde.draganddrop 2.0

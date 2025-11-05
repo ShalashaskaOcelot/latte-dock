@@ -19,7 +19,6 @@
 #include <QDebug>
 #include <QTimer>
 #include <QApplication>
-#include <QtX11Extras/QX11Info>
 #include <QQuickView>
 #include <QLatin1String>
 

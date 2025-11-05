@@ -3,9 +3,8 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-import QtQuick 2.0
-import QtQuick.Controls 1.4 as Controls
-import QtQuick.Controls.Styles.Plasma 2.0 as Styles
+import QtQuick
+import QtQuick.Controls as Controls
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 Controls.SpinBox {

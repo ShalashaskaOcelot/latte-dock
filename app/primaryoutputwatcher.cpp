@@ -19,11 +19,7 @@
 #include <config-latte.h>
 #if HAVE_X11
 #include <QTimer> //Used only in x11 case
-#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
 #include <private/qtx11extras_p.h>
-#else
-#include <QX11Info>
-#endif
 #include <xcb/randr.h>
 #include <xcb/xcb.h>
 #include <xcb/xcb_event.h>
@@ -55,7 +51,8 @@ PrimaryOutputWatcher::PrimaryOutputWatcher(QObject *parent)
     if (KWindowSystem::isPlatformX11()) {
         m_primaryOutputName = qGuiApp->primaryScreen()->name();
         qGuiApp->installNativeEventFilter(this);
-        const xcb_query_extension_reply_t *reply = xcb_get_extension_data(QX11Info::connection(), &xcb_randr_id);
+        xcb_connection_t *c = qGuiApp->nativeInterface<QNativeInterface::QX11Application>()->connection();
+        const xcb_query_extension_reply_t *reply = xcb_get_extension_data(c, &xcb_randr_id);
         m_xrandrExtensionOffset = reply->first_event;
         setPrimaryOutputName(qGuiApp->primaryScreen()->name());
         connect(qGuiApp, &QGuiApplication::primaryScreenChanged, this, [this](QScreen *newPrimary) {

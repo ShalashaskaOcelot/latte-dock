@@ -53,7 +53,6 @@
 #include <QScreen>
 #include <QDBusConnection>
 #include <QDebug>
-#include <QDesktopWidget>
 #include <QFile>
 #include <QFontDatabase>
 #include <QQmlContext>
