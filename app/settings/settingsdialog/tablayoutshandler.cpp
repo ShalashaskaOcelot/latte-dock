@@ -36,7 +36,7 @@
 #include <KLocalizedString>
 #include <KActivities/Controller>
 #include <KIO/OpenFileManagerWindowJob>
-#include <KNewStuff3/KNS3/DownloadDialog>
+#include <KNSWidgets/Dialog>
 
 
 namespace Latte {
@@ -466,7 +466,7 @@ void TabLayouts::downloadLayout()
         return;
     }
 
-    KNS3::DownloadDialog dialog(QStringLiteral("latte-layouts.knsrc"), m_parentDialog);
+    KNSWidgets::Dialog dialog(QStringLiteral("latte-layouts.knsrc"), m_parentDialog);
     dialog.resize(m_parentDialog->downloadWindowSize());
     dialog.exec();
 
