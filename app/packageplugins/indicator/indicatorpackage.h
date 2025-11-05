@@ -11,6 +11,7 @@
 #include <QObject>
 
 // KDE
+#include <KPackage/Package>
 #include <KPackage/PackageStructure>
 
 namespace Latte {
