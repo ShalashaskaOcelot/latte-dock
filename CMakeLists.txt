@@ -34,8 +34,12 @@ include(WriteBasicConfigVersionFile)
 find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED NO_MODULE COMPONENTS DBus Gui Qml Quick Core5Compat)
 
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
-    Activities Archive CoreAddons GuiAddons Crash DBusAddons KCMUtils GlobalAccel Kirigami
-    I18n IconThemes KIO NewStuff Notifications Plasma WindowSystem XmlGui)
+    Archive CoreAddons GuiAddons Crash DBusAddons KCMUtils GlobalAccel Kirigami
+    I18n IconThemes KIO NewStuff Notifications WindowSystem XmlGui)
+
+# Plasma components are separate in Plasma 6
+find_package(PlasmaActivities REQUIRED)
+find_package(Plasma REQUIRED)
 
 find_package(LibTaskManager REQUIRED)
 add_definitions(-DPLASMA_WORKSPACE_VERSION="${LibTaskManager_VERSION}")

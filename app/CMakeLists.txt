@@ -64,7 +64,7 @@ target_link_libraries(latte-dock
     Qt6::Quick
     Qt6::Qml
     Qt6::Core5Compat
-    KF6::Activities
+    Plasma::Activities
     KF6::Archive
     KF6::CoreAddons
     KF6::Crash
@@ -77,7 +77,7 @@ target_link_libraries(latte-dock
     KF6::KIOWidgets
     KF6::Notifications
     KF6::NewStuff
-    KF6::Plasma
+    Plasma::Plasma
     KF6::WaylandClient
     KF6::XmlGui
     Wayland::Client
