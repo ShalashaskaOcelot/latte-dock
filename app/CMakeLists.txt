@@ -79,7 +79,6 @@ target_link_libraries(latte-dock
     KF6::NewStuffCore
     KF6::NewStuffWidgets
     Plasma::Plasma
-    KF6::WaylandClient
     KF6::XmlGui
     Wayland::Client
 )
