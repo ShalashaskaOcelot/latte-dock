@@ -93,12 +93,12 @@ void IconItem::setSource(const QVariant &source)
             m_svgIcon.reset();
         } else {
             if (!m_svgIcon) {
-                m_svgIcon = std::make_unique<Plasma::Svg>(this);
+                m_svgIcon = std::make_unique<Plasma5Support::Svg>(this);
                 m_svgIcon->setColorGroup(m_colorGroup);
-                m_svgIcon->setStatus(Plasma::Svg::Normal);
+                m_svgIcon->setStatus(Plasma5Support::Svg::Normal);
                 m_svgIcon->setUsingRenderingCache(false);
                 m_svgIcon->setDevicePixelRatio((window() ? window()->devicePixelRatio() : qApp->devicePixelRatio()));
-                connect(m_svgIcon.get(), &Plasma::Svg::repaintNeeded, this, &IconItem::schedulePixmapUpdate);
+                connect(m_svgIcon.get(), &Plasma5Support::Svg::repaintNeeded, this, &IconItem::schedulePixmapUpdate);
             }
 
             if (m_usesPlasmaTheme) {
@@ -116,7 +116,7 @@ void IconItem::setSource(const QVariant &source)
                 m_svgIconName = sourceString;
                 //ok, svg not available from the plasma theme
             } else {
-                //try to load from iconloader an svg with Plasma::Svg
+                //try to load from iconloader an svg with Plasma5Support::Svg
                 const auto *iconTheme = KIconLoader::global()->theme();
                 QString iconPath;
 

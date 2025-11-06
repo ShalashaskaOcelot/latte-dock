@@ -17,6 +17,7 @@ target_link_libraries(lattecoreplugin
     Qt6::Qml
     KF6::CoreAddons
     Plasma::Plasma
+    Plasma::Plasma5Support
     KF6::IconThemes
 )
 

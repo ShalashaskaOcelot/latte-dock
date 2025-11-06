@@ -14,10 +14,6 @@
 #include <QQuickItem>
 #include <QTimer>
 
-namespace KDeclarative {
-class ConfigPropertyMap;
-}
-
 namespace Latte{
 namespace Containment{
 
@@ -200,7 +196,7 @@ private:
     QQuickItem *m_metrics{nullptr};
 
     QObject *m_plasmoid{nullptr};
-    KDeclarative::ConfigPropertyMap *m_configuration{nullptr};
+    QQmlPropertyMap *m_configuration{nullptr};
 
     QHash<int, QQuickItem *> m_appletsInScheduledDestruction;
 

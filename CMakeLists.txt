@@ -35,11 +35,12 @@ find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED NO_MODULE COMPONENTS DBus Gui
 
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     Archive CoreAddons GuiAddons Crash DBusAddons KCMUtils GlobalAccel Kirigami
-    I18n IconThemes KIO NewStuff Notifications WindowSystem XmlGui)
+    I18n IconThemes KIO NewStuff Notifications Package WindowSystem XmlGui)
 
 # Plasma components are separate in Plasma 6
 find_package(PlasmaActivities REQUIRED)
 find_package(Plasma REQUIRED)
+find_package(Plasma5Support REQUIRED)
 
 find_package(LibTaskManager REQUIRED)
 add_definitions(-DPLASMA_WORKSPACE_VERSION="${LibTaskManager_VERSION}")

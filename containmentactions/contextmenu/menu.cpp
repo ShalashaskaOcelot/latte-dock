@@ -25,7 +25,7 @@
 // Plasma
 #include <Plasma/Containment>
 #include <Plasma/Corona>
-#include <Plasma/ServiceJob>
+// #include <Plasma/ServiceJob>  // Removed in Plasma 6
 
 const int MEMORYINDEX = 0;
 const int ACTIVELAYOUTSINDEX = 1;

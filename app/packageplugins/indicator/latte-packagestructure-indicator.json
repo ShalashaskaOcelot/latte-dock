@@ -1,4 +1,10 @@
 {
+    "KPlugin": {
+        "Id": "Latte/Indicator",
+        "Name": "Latte Indicator Package",
+        "Description": "Latte Dock indicator package structure",
+        "Version": "1.0"
+    },
     "KPackageStructure": "Latte/Indicator",
     "X-KDE-ParentApp": "org.kde.latte-dock"
 }

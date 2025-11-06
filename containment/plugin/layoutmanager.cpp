@@ -11,8 +11,8 @@
 // Qt
 #include <QtMath>
 
-// KDE
-#include <KDeclarative/ConfigPropertyMap>
+// Qt
+#include <QQmlPropertyMap>
 
 // Plasma
 #include <Plasma>
@@ -169,7 +169,7 @@ void LayoutManager::setPlasmoid(QObject *plasmoid)
     m_plasmoid = plasmoid;
 
     if (m_plasmoid) {
-        m_configuration = qobject_cast<KDeclarative::ConfigPropertyMap *>(m_plasmoid->property("configuration").value<QObject *>());
+        m_configuration = qobject_cast<QQmlPropertyMap *>(m_plasmoid->property("configuration").value<QObject *>());
     }
 
     emit plasmoidChanged();

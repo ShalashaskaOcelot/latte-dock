@@ -4,6 +4,7 @@ set_target_properties(latte_packagestructure_indicator PROPERTIES OUTPUT_NAME la
 target_link_libraries(latte_packagestructure_indicator
    KF6::CoreAddons
    KF6::I18n
+   KF6::Package
 )
 
 install(FILES latte-indicator.desktop DESTINATION ${KDE_INSTALL_DATADIR}/kpackage/packagestructure)
