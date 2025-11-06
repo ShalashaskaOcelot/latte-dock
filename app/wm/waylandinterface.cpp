@@ -105,7 +105,7 @@ public:
     //! geometry() function under wayland does not return nice results
     QRect m_validGeometry;
 
-public slots:
+public Q_SLOTS:
     void identifyWinId() {
         if (m_winId.isNull()) {
             m_winId = m_waylandInterface->winIdFor("latte-dock", m_validGeometry);
