@@ -10,7 +10,7 @@
 #include <QQmlExtensionPlugin>
 
 // Plasma
-#include <Plasma/Dialog>
+#include <PlasmaQuick/Dialog>
 
 class LatteTasksPlugin : public QQmlExtensionPlugin
 {
