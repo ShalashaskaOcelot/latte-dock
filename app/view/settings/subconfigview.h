@@ -17,7 +17,7 @@
 #include <QTimer>
 
 // Plasma
-#include <Plasma/FrameSvg>
+#include <Plasma5Support/FrameSvg>
 
 namespace KWayland {
 namespace Client {

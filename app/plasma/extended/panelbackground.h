@@ -10,8 +10,8 @@
 #include <QObject>
 
 // Plasma
-#include <Plasma>
-#include <Plasma/FrameSvg>
+#include <Plasma/Plasma>
+#include <Plasma5Support/FrameSvg>
 
 namespace Latte {
 namespace PlasmaExtended {

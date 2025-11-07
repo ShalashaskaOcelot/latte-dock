@@ -28,8 +28,8 @@
 #include <Plasma/Containment>
 
 // KDE
-#include <KActivities/Consumer>
-#include <KActivities/Controller>
+#include <PlasmaActivities/Consumer>
+#include <PlasmaActivities/Controller>
 #include <KWindowSystem>
 
 #define LAYOUTSINITINTERVAL 350

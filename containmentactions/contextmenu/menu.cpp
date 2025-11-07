@@ -82,33 +82,33 @@ void Menu::restore(const KConfigGroup &config)
     m_actions[Latte::Data::ContextMenu::SEPARATOR1ACTION]->setSeparator(true);
 
     //! Print Message...
-    m_actions[Latte::Data::ContextMenu::PRINTACTION] = new QAction(QIcon::fromTheme("edit"), "Print Message...", this);
+    m_actions[Latte::Data::ContextMenu::PRINTACTION] = new QAction(QIcon::fromTheme(QStringLiteral("edit")), QStringLiteral("Print Message..."), this);
     connect(m_actions[Latte::Data::ContextMenu::PRINTACTION], &QAction::triggered, [ = ]() {
         qDebug() << "Action Triggered !!!";
     });
 
     //! Add Widgets...
-    m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION] = new QAction(QIcon::fromTheme("list-add"), i18n("&Add Widgets..."), this);
+    m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION] = new QAction(QIcon::fromTheme(QStringLiteral("list-add")), i18n("&Add Widgets..."), this);
     m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION]->setStatusTip(i18n("Show Widget Explorer"));
     connect(m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION], &QAction::triggered, this, &Menu::requestWidgetExplorer);
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::ADDWIDGETSACTION, m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION]);
 
     /*connect(m_addWidgetsAction, &QAction::triggered, [ = ]() {
-        QDBusInterface iface("org.kde.plasmashell", "/PlasmaShell", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("toggleWidgetExplorer");
+            iface.call(QStringLiteral("toggleWidgetExplorer"));
         }
     });*/
 
     //! Edit Dock/Panel...
-    m_actions[Latte::Data::ContextMenu::EDITVIEWACTION] = new QAction(QIcon::fromTheme("document-edit"), "Edit Dock...", this);
+    m_actions[Latte::Data::ContextMenu::EDITVIEWACTION] = new QAction(QIcon::fromTheme(QStringLiteral("document-edit")), QStringLiteral("Edit Dock..."), this);
     connect(m_actions[Latte::Data::ContextMenu::EDITVIEWACTION], &QAction::triggered, this, &Menu::requestConfiguration);
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::EDITVIEWACTION, m_actions[Latte::Data::ContextMenu::EDITVIEWACTION]);
 
 
     //! Quit Application
-    m_actions[Latte::Data::ContextMenu::QUITLATTEACTION] = new QAction(QIcon::fromTheme("application-exit"), i18nc("quit application", "Quit &Latte"));
+    m_actions[Latte::Data::ContextMenu::QUITLATTEACTION] = new QAction(QIcon::fromTheme(QStringLiteral("application-exit")), i18nc("quit application", "Quit &Latte"));
     connect(m_actions[Latte::Data::ContextMenu::QUITLATTEACTION], &QAction::triggered, this, &Menu::quitApplication);
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::QUITLATTEACTION, m_actions[Latte::Data::ContextMenu::QUITLATTEACTION]);
 
@@ -116,7 +116,7 @@ void Menu::restore(const KConfigGroup &config)
     m_switchLayoutsMenu = new QMenu;
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION] = m_switchLayoutsMenu->menuAction();
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setText(i18n("&Layouts"));
-    m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setIcon(QIcon::fromTheme("user-identity"));
+    m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setIcon(QIcon::fromTheme(QStringLiteral("user-identity")));
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setStatusTip(i18n("Switch to another layout"));
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::LAYOUTSACTION, m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]);
 
@@ -127,7 +127,7 @@ void Menu::restore(const KConfigGroup &config)
     m_addViewMenu = new QMenu;
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION] = m_addViewMenu->menuAction();
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setText(i18n("&Add Dock/Panel"));
-    m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setIcon(QIcon::fromTheme("list-add"));
+    m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setIcon(QIcon::fromTheme(QStringLiteral("list-add")));
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setStatusTip(i18n("Add dock or panel based on specific template"));
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::ADDVIEWACTION, m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]);
 
@@ -138,7 +138,7 @@ void Menu::restore(const KConfigGroup &config)
     m_moveToLayoutMenu = new QMenu;
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION] = m_moveToLayoutMenu->menuAction();
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setText("Move To Layout");
-    m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setIcon(QIcon::fromTheme("transform-move-horizontal"));
+    m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setIcon(QIcon::fromTheme(QStringLiteral("transform-move-horizontal")));
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setStatusTip(i18n("Move dock or panel to different layout"));
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::MOVEVIEWACTION, m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]);
 
@@ -146,45 +146,45 @@ void Menu::restore(const KConfigGroup &config)
     connect(m_moveToLayoutMenu, &QMenu::triggered, this, &Menu::moveToLayout);
 
     //! Configure Latte
-    m_actions[Latte::Data::ContextMenu::PREFERENCESACTION] = new QAction(QIcon::fromTheme("configure"), i18nc("global settings window", "&Configure Latte..."), this);
+    m_actions[Latte::Data::ContextMenu::PREFERENCESACTION] = new QAction(QIcon::fromTheme(QStringLiteral("configure")), i18nc("global settings window", "&Configure Latte..."), this);
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::PREFERENCESACTION, m_actions[Latte::Data::ContextMenu::PREFERENCESACTION]);
     connect(m_actions[Latte::Data::ContextMenu::PREFERENCESACTION], &QAction::triggered, [=](){
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("showSettingsWindow", (int)PreferencesPage);
+            iface.call(QStringLiteral("showSettingsWindow"), (int)PreferencesPage);
         }
     });
 
     //! Duplicate Action
-    m_actions[Latte::Data::ContextMenu::DUPLICATEVIEWACTION] = new QAction(QIcon::fromTheme("edit-copy"), "Duplicate Dock as Template", this);
+    m_actions[Latte::Data::ContextMenu::DUPLICATEVIEWACTION] = new QAction(QIcon::fromTheme(QStringLiteral("edit-copy")), QStringLiteral("Duplicate Dock as Template"), this);
     connect(m_actions[Latte::Data::ContextMenu::DUPLICATEVIEWACTION], &QAction::triggered, [=](){
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("duplicateView", containment()->id());
+            iface.call(QStringLiteral("duplicateView"), containment()->id());
         }
     });
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::DUPLICATEVIEWACTION, m_actions[Latte::Data::ContextMenu::DUPLICATEVIEWACTION]);
 
     //! Export View Template Action
-    m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION] = new QAction(QIcon::fromTheme("document-export"), "Export as Template...", this);
+    m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION] = new QAction(QIcon::fromTheme(QStringLiteral("document-export")), QStringLiteral("Export as Template..."), this);
     connect(m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION], &QAction::triggered, [=](){
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("exportViewTemplate", containment()->id());
+            iface.call(QStringLiteral("exportViewTemplate"), containment()->id());
         }
     });
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION, m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION]);
 
     //! Remove Action
-    m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION] = new QAction(QIcon::fromTheme("delete"), "Remove Dock", this);
+    m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION] = new QAction(QIcon::fromTheme(QStringLiteral("delete")), QStringLiteral("Remove Dock"), this);
     connect(m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION], &QAction::triggered, [=](){
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("removeView", containment()->id());
+            iface.call(QStringLiteral("removeView"), containment()->id());
         }
     });
     this->containment()->actions()->addAction(Latte::Data::ContextMenu::REMOVEVIEWACTION, m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION]);
@@ -222,13 +222,13 @@ QList<QAction *> Menu::contextualActions()
 
     m_data.clear();
     m_viewTemplates.clear();
-    QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+    QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
     if (iface.isValid()) {
-        QDBusReply<QStringList> contextData = iface.call("contextMenuData", containment()->id());
+        QDBusReply<QStringList> contextData = iface.call(QStringLiteral("contextMenuData"), containment()->id());
         m_data = contextData.value();
 
-        QDBusReply<QStringList> templatesData = iface.call("viewTemplatesData");
+        QDBusReply<QStringList> templatesData = iface.call(QStringLiteral("viewTemplatesData"));
         m_viewTemplates = templatesData.value();
     }
 
@@ -434,7 +434,7 @@ void Menu::populateViewTemplates()
         }
 
         QAction *templateAction = m_addViewMenu->addAction(m_viewTemplates[i]);
-        templateAction->setIcon(QIcon::fromTheme("list-add"));
+        templateAction->setIcon(QIcon::fromTheme(QStringLiteral("list-add")));
         templateAction->setData(m_viewTemplates[i+1]);
     }
 
@@ -450,10 +450,10 @@ void Menu::addView(QAction *action)
     const QString templateId = action->data().toString();
 
     QTimer::singleShot(400, [this, templateId]() {
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("addView", containment()->id(), templateId);
+            iface.call(QStringLiteral("addView"), containment()->id(), templateId);
         }
     });
 }
@@ -463,10 +463,10 @@ void Menu::moveToLayout(QAction *action)
     const QString layoutName = action->data().toString();
 
     QTimer::singleShot(400, [this, layoutName]() {
-        QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+        QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
         if (iface.isValid()) {
-            iface.call("moveViewToLayout", containment()->id(), layoutName);
+            iface.call(QStringLiteral("moveViewToLayout"), containment()->id(), layoutName);
         }
     });
 }
@@ -477,18 +477,18 @@ void Menu::switchToLayout(QAction *action)
 
     if (layout == QLatin1String(" _show_latte_settings_dialog_")) {
         QTimer::singleShot(400, [this]() {
-            QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+            QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
             if (iface.isValid()) {
-                iface.call("showSettingsWindow", (int)LayoutPage);
+                iface.call(QStringLiteral("showSettingsWindow"), (int)LayoutPage);
             }
         });
     } else {
         QTimer::singleShot(400, [this, layout]() {
-            QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+            QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
             if (iface.isValid()) {
-                iface.call("switchToLayout", layout);
+                iface.call(QStringLiteral("switchToLayout"), layout);
             }
         });
     }
@@ -496,10 +496,10 @@ void Menu::switchToLayout(QAction *action)
 
 void Menu::quitApplication()
 {
-    QDBusInterface iface("org.kde.lattedock", "/Latte", "", QDBusConnection::sessionBus());
+    QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
     if (iface.isValid()) {
-        iface.call("quitApplication");
+        iface.call(QStringLiteral("quitApplication"));
     }
 }
 

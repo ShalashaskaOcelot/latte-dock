@@ -59,7 +59,7 @@
 #include <QProcess>
 
 // Plasma
-#include <Plasma>
+#include <Plasma/Plasma>
 #include <Plasma/Corona>
 #include <Plasma/Containment>
 #include <PlasmaQuick/ConfigView>
@@ -72,7 +72,7 @@
 #include <KPackage/Package>
 #include <KPackage/PackageLoader>
 #include <KAboutData>
-#include <KActivities/Consumer>
+#include <PlasmaActivities/Consumer>
 #include <KDeclarative/QmlObjectSharedEngine>
 #include <KWindowSystem>
 #include <KWayland/Client/connection_thread.h>

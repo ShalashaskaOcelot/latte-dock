@@ -34,7 +34,7 @@
 //! KDE
 #include <KWindowSystem>
 #include <KLocalizedString>
-#include <KActivities/Controller>
+#include <PlasmaActivities/Controller>
 #include <KIO/OpenFileManagerWindowJob>
 #include <KNSWidgets/Dialog>
 

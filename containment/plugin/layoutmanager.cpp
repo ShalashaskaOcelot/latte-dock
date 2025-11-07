@@ -15,7 +15,7 @@
 #include <QQmlPropertyMap>
 
 // Plasma
-#include <Plasma>
+#include <Plasma/Plasma>
 #include <Plasma/Applet>
 #include <PlasmaQuick/AppletQuickItem>
 

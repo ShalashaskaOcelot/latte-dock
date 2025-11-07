@@ -21,8 +21,8 @@
 #include <KLocalizedString>
 
 // KActivities
-#include <KActivities/Consumer>
-#include <KActivities/Info>
+#include <PlasmaActivities/Consumer>
+#include <PlasmaActivities/Info>
 
 namespace Latte {
 namespace Settings {
