@@ -317,12 +317,12 @@ bool LayoutManager::isValidApplet(const int &id)
 //! Actions
 void LayoutManager::restore()
 {
-    QList<int> appletIdsOrder = toIntList((*m_configuration)[QStringLiteral(QStringLiteral("appletOrder"))].toString());
+    QList<int> appletIdsOrder = toIntList((*m_configuration)[QStringLiteral("appletOrder"))].toString());
     QList<QObject *> applets = m_plasmoid->property("applets").value<QList<QObject *>>();
 
     Latte::Types::Alignment alignment = static_cast<Latte::Types::Alignment>((*m_configuration)[QStringLiteral("alignment")].toInt());
-    int splitterPosition = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition"))].toInt();
-    int splitterPosition2 = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition2"))].toInt();
+    int splitterPosition = (*m_configuration)[QStringLiteral("splitterPosition"))].toInt();
+    int splitterPosition2 = (*m_configuration)[QStringLiteral("splitterPosition2"))].toInt();
 
     if (alignment==Latte::Types::Justify) {
         if (splitterPosition!=-1 && splitterPosition2!=-1) {
@@ -552,17 +552,17 @@ void LayoutManager::save()
         setSplitterPosition(startChilds + 1);
         setSplitterPosition2(startChilds + 1 + mainChilds + 1);
     } else {
-        int splitterPosition = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition"))].toInt();
-        int splitterPosition2 = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition2"))].toInt();
+        int splitterPosition = (*m_configuration)[QStringLiteral("splitterPosition"))].toInt();
+        int splitterPosition2 = (*m_configuration)[QStringLiteral("splitterPosition2"))].toInt();
 
         setSplitterPosition(splitterPosition);
         setSplitterPosition2(splitterPosition2);
     }
 
     //! are not writing in config file for some cases mentioned in class header so they are not used
-    //(*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition"))] = QVariant(startChilds + 1);
-    //(*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition2"))] = QVariant(startChilds + 1 + mainChilds + 1);
-    //(*m_configuration)[QStringLiteral(QStringLiteral("appletOrder"))] = appletIds.join(";");
+    //(*m_configuration)[QStringLiteral("splitterPosition"))] = QVariant(startChilds + 1);
+    //(*m_configuration)[QStringLiteral("splitterPosition2"))] = QVariant(startChilds + 1 + mainChilds + 1);
+    //(*m_configuration)[QStringLiteral("appletOrder"))] = appletIds.join(";");
 
     setAppletOrder(appletIds);
 
@@ -572,7 +572,7 @@ void LayoutManager::save()
     //! save applet order
     QString appletsserialized = toStr(appletIds);
 
-    if ((*m_configuration)[QStringLiteral(QStringLiteral("appletOrder"))] != appletsserialized) {
+    if ((*m_configuration)[QStringLiteral("appletOrder"))] != appletsserialized) {
         m_configuration->insert(QStringLiteral("appletOrder"), appletsserialized);
         emit m_configuration->valueChanged(QStringLiteral("appletOrder"), appletsserialized);
     }
@@ -592,14 +592,14 @@ void LayoutManager::saveOptions()
         emit m_configuration->valueChanged(m_option[QStringLiteral(ISCOLORINGBLOCKEDOPTION)], colorsserialized);
     }
 
-    if ((*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition"))] != m_splitterPosition) {
+    if ((*m_configuration)[QStringLiteral("splitterPosition"))] != m_splitterPosition) {
         m_configuration->insert(QStringLiteral("splitterPosition"), m_splitterPosition);
-        emit m_configuration->valueChanged(m_option[QStringLiteral(QStringLiteral("splitterPosition"))], m_splitterPosition);
+        emit m_configuration->valueChanged(m_option[QStringLiteral("splitterPosition"))], m_splitterPosition);
     }
 
-    if ((*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition2"))] != m_splitterPosition2) {
+    if ((*m_configuration)[QStringLiteral("splitterPosition2"))] != m_splitterPosition2) {
         m_configuration->insert(QStringLiteral("splitterPosition2"), m_splitterPosition2);
-        emit m_configuration->valueChanged(m_option[QStringLiteral(QStringLiteral("splitterPosition2"))], m_splitterPosition2);
+        emit m_configuration->valueChanged(m_option[QStringLiteral("splitterPosition2"))], m_splitterPosition2);
     }
 }
 
@@ -1339,8 +1339,8 @@ void LayoutManager::addJustifySplittersInMainLayout()
 
     destroyJustifySplitters();
 
-    int splitterPosition = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition"))].toInt();
-    int splitterPosition2 = (*m_configuration)[QStringLiteral(QStringLiteral("splitterPosition2"))].toInt();
+    int splitterPosition = (*m_configuration)[QStringLiteral("splitterPosition"))].toInt();
+    int splitterPosition2 = (*m_configuration)[QStringLiteral("splitterPosition2"))].toInt();
 
     int splitterIndex = (splitterPosition >= 1 ? splitterPosition - 1 : -1);
     int splitterIndex2 = (splitterPosition2 >= 1 ? splitterPosition2 - 1 : -1);

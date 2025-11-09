@@ -15,6 +15,7 @@
 #include <QMetaType>
 #include <QString>
 #include <QStringList>
+#include <QLatin1String>
 
 namespace Latte {
 namespace Data {
@@ -37,7 +38,7 @@ public:
     QString background;
     QString textColor;
     QString lastUsedActivity;
-    QString schemeFile{DEFAULTSCHEMEFILE};
+    QString schemeFile{QLatin1String(DEFAULTSCHEMEFILE)};
     bool isActive{false};
     bool isConsideredActive{false}; //used from settings window to indicate activeness based on selected layouts mode
     bool isLocked{false};

@@ -14,6 +14,7 @@
 #include <QDebug>
 #include <QFont>
 #include <QMenu>
+#include <QObject>
 #include <QtDBus>
 #include <QTimer>
 #include <QLatin1String>
@@ -76,7 +77,7 @@ void Menu::restore(const KConfigGroup &config)
 
     m_actions[Latte::Data::ContextMenu::SECTIONACTION] = new QAction(this);
     m_actions[Latte::Data::ContextMenu::SECTIONACTION]->setSeparator(true);
-    m_actions[Latte::Data::ContextMenu::SECTIONACTION]->setText("Latte");
+    m_actions[Latte::Data::ContextMenu::SECTIONACTION]->setText(QStringLiteral("Latte"));
 
     m_actions[Latte::Data::ContextMenu::SEPARATOR1ACTION] = new QAction(this);
     m_actions[Latte::Data::ContextMenu::SEPARATOR1ACTION]->setSeparator(true);
@@ -132,7 +133,7 @@ void Menu::restore(const KConfigGroup &config)
     //! Move submenu
     m_moveToLayoutMenu = new QMenu;
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION] = m_moveToLayoutMenu->menuAction();
-    m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setText("Move To Layout");
+    m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setText(QStringLiteral("Move To Layout"));
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setIcon(QIcon::fromTheme(QStringLiteral("transform-move-horizontal")));
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setStatusTip(i18n("Move dock or panel to different layout"));
 
