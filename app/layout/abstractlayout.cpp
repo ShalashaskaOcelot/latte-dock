@@ -255,43 +255,43 @@ QString AbstractLayout::lastUsedActivity() const
 
 void AbstractLayout::clearLastUsedActivity()
 {
-    m_lastUsedActivity = "";
+    m_lastUsedActivity = QString();
     emit lastUsedActivityChanged();
 }
 
 QString AbstractLayout::defaultCustomTextColor()
 {
-    return "#3C1C00";
+    return QStringLiteral("#3C1C00");
 }
 
 QString AbstractLayout::defaultCustomBackground()
 {
-    return "defaultcustom";
+    return QStringLiteral("defaultcustom");
 }
 
 QString AbstractLayout::defaultTextColor(const QString &color)
 {
     //! the user is in default layout theme
     if (color == QLatin1String("blue")) {
-        return "#D7E3FF";
+        return QStringLiteral("#D7E3FF");
     } else if (color == QLatin1String("brown")) {
-        return "#F1DECB";
+        return QStringLiteral("#F1DECB");
     } else if (color == QLatin1String("darkgrey")) {
-        return "#ECECEC";
+        return QStringLiteral("#ECECEC");
     } else if (color == QLatin1String("gold")) {
-        return "#7C3636";
+        return QStringLiteral("#7C3636");
     } else if (color == QLatin1String("green")) {
-        return "#4D7549";
+        return QStringLiteral("#4D7549");
     } else if (color == QLatin1String("lightskyblue")) {
-        return "#0C2A43";
+        return QStringLiteral("#0C2A43");
     } else if (color == QLatin1String("orange")) {
-        return "#6F3902";
+        return QStringLiteral("#6F3902");
     } else if (color == QLatin1String("pink")) {
-        return "#743C46";
+        return QStringLiteral("#743C46");
     } else if (color == QLatin1String("purple")) {
-        return "#ECD9FF";
+        return QStringLiteral("#ECD9FF");
     }  else if (color == QLatin1String("red")) {
-        return "#F3E4E4";
+        return QStringLiteral("#F3E4E4");
     }  else if (color == QLatin1String("wheat")) {
         return QStringLiteral("#6A4E25");
     }  else {

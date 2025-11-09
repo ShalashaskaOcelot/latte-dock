@@ -6,6 +6,7 @@
 #include "dialog.h"
 
 // Qt
+#include <QObject>
 #include <QScreen>
 #include <QWindow>
 
