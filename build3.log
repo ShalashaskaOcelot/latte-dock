@@ -1,4 +1,3 @@
-~/Documents/dev/latte-dock claude/latte-dock-fork-011CUqRyDFwNRoQd8EGfLVDg ❯ cmake --build build -j$(nproc) 2>&1 | tee build3.log
 -- Found Wayland: /usr/lib/libwayland-client.so;/usr/lib/libwayland-server.so;/usr/lib/libwayland-cursor.so;/usr/lib/libwayland-egl.so (found version "1.24.0")
 -- Found Wayland: /usr/lib/libwayland-client.so;/usr/lib/libwayland-server.so;/usr/lib/libwayland-cursor.so;/usr/lib/libwayland-egl.so (found version "1.24.0") found components: Client
 -- KF6 VERSION : 6.19.0
