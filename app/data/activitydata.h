@@ -22,6 +22,15 @@
 namespace Latte {
 namespace Data {
 
+// Activity states - KActivities::Info::State was removed in Plasma 6
+enum class ActivityState {
+    Invalid = 0,
+    Running = 2,
+    Starting = 3,
+    Stopped = 4,
+    Stopping = 5
+};
+
 class Activity : public Generic
 {
 public:
@@ -32,7 +41,7 @@ public:
     //! Layout data
     bool isCurrent{false};
     QString icon;
-    KActivities::Info::State state;
+    ActivityState state{ActivityState::Invalid};
 
     bool isValid() const;
     bool isRunning() const;
