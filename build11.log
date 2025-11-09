@@ -1,0 +1,354 @@
+[  1%] Generating mo...
+[  2%] Built target lattecontainmentplugin_autogen_timestamp_deps
+[  2%] Built target latte_packagestructure_indicator_autogen_timestamp_deps
+[  2%] Built target lattecoreplugin_autogen_timestamp_deps
+[  2%] Generating ts...
+[  2%] Built target latte-dock_autogen_timestamp_deps
+[  2%] Built target lattetasksplugin_autogen_timestamp_deps
+[  2%] Built target plasma_containmentactions_lattecontextmenu_autogen_timestamp_deps
+[  3%] Built target latte_packagestructure_indicator_autogen
+[  3%] Built target pofiles-3db632b4b7d16f6228e617c00fd1fb1e
+[  3%] Built target tsfiles-3db632b4b7d16f6228e617c00fd1fb1e
+[  4%] Automatic MOC for target lattecoreplugin
+[  4%] Built target lattecontainmentplugin_autogen
+[  5%] Built target lattetasksplugin_autogen
+[  6%] Automatic MOC for target latte-dock
+[  6%] Built target plasma_containmentactions_lattecontextmenu_autogen
+[  8%] Built target latte_packagestructure_indicator
+[  8%] Built target lattecoreplugin_autogen
+[ 10%] Built target lattetasksplugin
+[ 13%] Built target lattecontainmentplugin
+[ 16%] Built target plasma_containmentactions_lattecontextmenu
+[ 16%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin_autogen/mocs_compilation.cpp.o
+[ 17%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin.cpp.o
+[ 17%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/dialog.cpp.o
+[ 17%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/iconitem.cpp.o
+[ 18%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/environment.cpp.o
+[ 18%] Built target latte-dock_autogen
+[ 19%] Building CXX object app/CMakeFiles/latte-dock.dir/latte-dock_autogen/mocs_compilation.cpp.o
+[ 19%] Building CXX object app/CMakeFiles/latte-dock.dir/alternativeshelper.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/lattecorona.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/infoview.cpp.o
+[ 21%] Building CXX object app/CMakeFiles/latte-dock.dir/screenpool.cpp.o
+[ 22%] Building CXX object app/CMakeFiles/latte-dock.dir/main.cpp.o
+[ 23%] Building CXX object app/CMakeFiles/latte-dock.dir/primaryoutputwatcher.cpp.o
+[ 23%] Building CXX object app/CMakeFiles/latte-dock.dir/data/viewdata.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/declarativeimports/contextmenulayerquickitem.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/abstractlayout.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/data/layoutstable.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/declarativeimports/interfaces.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/data/viewstable.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/genericlayout.cpp.o
+[ 25%] Building CXX object app/CMakeFiles/latte-dock.dir/indicator/factory.cpp.o
+[ 26%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/centrallayout.cpp.o
+[ 27%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/importer.cpp.o
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/storage.cpp.o
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/manager.cpp.o
+In file included from /home/sam/Documents/dev/latte-dock/declarativeimports/core/lattecoreplugin.cpp:13:
+/home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.cpp:12:
+/home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:141: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/iconitem.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:99: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin.cpp.o] Error 1
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/syncedlaunchers.cpp.o
+[ 29%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/synchronizer.cpp.o
+/home/sam/Documents/dev/latte-dock/app/primaryoutputwatcher.cpp:16:10: fatal error: KWayland/Client/connection_thread.h: No such file or directory
+   16 | #include <KWayland/Client/connection_thread.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:223: app/CMakeFiles/latte-dock.dir/primaryoutputwatcher.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:28:10: fatal error: KArchive/KTar: No such file or directory
+   28 | #include <KArchive/KTar>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:503: app/CMakeFiles/latte-dock.dir/indicator/factory.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layout/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/genericlayout.cpp:12:
+/home/sam/Documents/dev/latte-dock/app/layout/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/importer.cpp:12:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:559: app/CMakeFiles/latte-dock.dir/layouts/importer.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:545: app/CMakeFiles/latte-dock.dir/layout/genericlayout.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:573: app/CMakeFiles/latte-dock.dir/layouts/manager.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/infoview.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/infoview.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/EWIEGA46WW/moc_iconitem.cpp:9,
+                 from /home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/mocs_compilation.cpp:5:
+/home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/EWIEGA46WW/../../../../../declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:181: app/CMakeFiles/latte-dock.dir/infoview.cpp.o] Error 1
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:85: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin_autogen/mocs_compilation.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/syncedlaunchers.cpp:9:
+/home/sam/Documents/dev/latte-dock/app/layouts/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:601: app/CMakeFiles/latte-dock.dir/layouts/syncedlaunchers.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/declarativeimports/interfaces.cpp:6:
+/home/sam/Documents/dev/latte-dock/app/declarativeimports/interfaces.h:14:10: fatal error: PlasmaQuick/AppletQuickItem: No such file or directory
+   14 | #include <PlasmaQuick/AppletQuickItem>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:489: app/CMakeFiles/latte-dock.dir/declarativeimports/interfaces.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/main.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:237: app/CMakeFiles/latte-dock.dir/main.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/lattecorona.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:195: app/CMakeFiles/latte-dock.dir/lattecorona.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/alternativeshelper.cpp:14:10: fatal error: KPackage/Package: No such file or directory
+   14 | #include <KPackage/Package>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:153: app/CMakeFiles/latte-dock.dir/alternativeshelper.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/declarativeimports/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/declarativeimports/contextmenulayerquickitem.cpp:9:
+/home/sam/Documents/dev/latte-dock/app/declarativeimports/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/synchronizer.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:475: app/CMakeFiles/latte-dock.dir/declarativeimports/contextmenulayerquickitem.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:615: app/CMakeFiles/latte-dock.dir/layouts/synchronizer.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/ZUF5Y6WZWO/moc_interfaces.cpp:9,
+                 from /home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/mocs_compilation.cpp:4:
+/home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/ZUF5Y6WZWO/../../../../app/declarativeimports/interfaces.h:14:10: fatal error: PlasmaQuick/AppletQuickItem: No such file or directory
+   14 | #include <PlasmaQuick/AppletQuickItem>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/storage.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:139: app/CMakeFiles/latte-dock.dir/latte-dock_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:587: app/CMakeFiles/latte-dock.dir/layouts/storage.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layout/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/centrallayout.cpp:13:
+/home/sam/Documents/dev/latte-dock/app/layout/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:531: app/CMakeFiles/latte-dock.dir/layout/centrallayout.cpp.o] Error 1
+In file included from /usr/include/qt6/QtCore/qstring.h:1770,
+                 from /usr/include/qt6/QtCore/QString:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/genericdata.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/data/generictable.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewstable.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewstable.cpp:6:
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const char (&)[21]; B = QString; type = QStringBuilder<const char (&)[21], QString>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = const char (&)[21]; B = QString]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = const char (&)[21]; B = QString; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/data/viewstable.cpp:127:50:   required from here
+  127 |     qDebug().noquote() << "Views initialized : " + (isInitialized ? QStringLiteral("true") : QStringLiteral("false"));
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 21]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:461: app/CMakeFiles/latte-dock.dir/data/viewstable.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp: In member function ‘Latte::Data::View::operator QString() const’:
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:35: error: no match for ‘operator+’ (operand types are ‘QString’ and ‘const Latte::Data::GenericTable<Latte::Data::Generic>’)
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                   ^ ~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     const Latte::Data::GenericTable<Latte::Data::Generic>
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:35: note: there are 15 candidates
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                   ^
+In file included from /usr/include/qt6/QtCore/qstring.h:1770,
+                 from /usr/include/qt6/QtCore/qobject.h:11,
+                 from /usr/include/qt6/QtCore/QObject:1,
+                 from /home/sam/Documents/dev/latte-dock/build/app/coretypes.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:6:
+/usr/include/qt6/QtCore/qstringbuilder.h:416:6: note: candidate 1: ‘template<class A, class B, class> auto operator+(A&&, B&&)’
+  416 | auto operator+(A &&a, B &&b)
+      |      ^~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:416:6: note: template argument deduction/substitution failed:
+/usr/include/qt6/QtCore/qstringbuilder.h:415:10: error: invalid use of incomplete type ‘struct QConcatenable<Latte::Data::GenericTable<Latte::Data::Generic> >’
+  415 |          typename = std::void_t<typename QConcatenableEx<A>::type, typename QConcatenableEx<B>::type>>
+      |          ^~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:34:30: note: declaration of ‘struct QConcatenable<Latte::Data::GenericTable<Latte::Data::Generic> >’
+   34 | template <typename T> struct QConcatenable;
+      |                              ^~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qdebug.h:42,
+                 from /usr/include/qt6/QtCore/qvariant.h:12,
+                 from /usr/include/qt6/QtCore/qmetaobject.h:10,
+                 from /usr/include/qt6/QtCore/QMetaEnum:1,
+                 from /home/sam/Documents/dev/latte-dock/build/app/coretypes.h:11:
+/usr/include/qt6/QtCore/qmap.h:1602:19: note: candidate 2: ‘template<class Key, class T> QMultiMap<Key, T> operator+(const QMultiMap<Key, T>&, const QMultiMap<Key, T>&)’
+ 1602 | QMultiMap<Key, T> operator+(const QMultiMap<Key, T> &lhs, const QMultiMap<Key, T> &rhs)
+      |                   ^~~~~~~~
+/usr/include/qt6/QtCore/qmap.h:1602:19: note: template argument deduction/substitution failed:
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:37: note:   ‘QString’ is not derived from ‘const QMultiMap<Key, T>’
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                     ^~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qrect.h:9,
+                 from /usr/include/qt6/QtCore/QRect:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../data/screendata.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../screenpool.h:11,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.h:12:
+/usr/include/qt6/QtCore/qmargins.h:156:27: note: candidate 3: ‘constexpr QMargins operator+(const QMargins&, const QMargins&)’
+  156 | constexpr inline QMargins operator+(const QMargins &m1, const QMargins &m2) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:156:53: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  156 | constexpr inline QMargins operator+(const QMargins &m1, const QMargins &m2) noexcept
+      |                                     ~~~~~~~~~~~~~~~~^~
+/usr/include/qt6/QtCore/qmargins.h:168:27: note: candidate 4: ‘constexpr QMargins operator+(const QMargins&, int)’
+  168 | constexpr inline QMargins operator+(const QMargins &lhs, int rhs) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:168:53: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  168 | constexpr inline QMargins operator+(const QMargins &lhs, int rhs) noexcept
+      |                                     ~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:174:27: note: candidate 5: ‘constexpr QMargins operator+(int, const QMargins&)’
+  174 | constexpr inline QMargins operator+(int lhs, const QMargins &rhs) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:174:41: note: no known conversion for argument 1 from ‘QString’ to ‘int’
+  174 | constexpr inline QMargins operator+(int lhs, const QMargins &rhs) noexcept
+      |                                     ~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:284:27: note: candidate 6: ‘constexpr QMargins operator+(const QMargins&)’
+  284 | constexpr inline QMargins operator+(const QMargins &margins) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:284:27: note: candidate expects 1 argument, 2 provided
+/usr/include/qt6/QtCore/qmargins.h:435:28: note: candidate 7: ‘constexpr QMarginsF operator+(const QMarginsF&, const QMarginsF&)’
+  435 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, const QMarginsF &rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:435:55: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  435 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, const QMarginsF &rhs) noexcept
+      |                                      ~~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:447:28: note: candidate 8: ‘constexpr QMarginsF operator+(const QMarginsF&, qreal)’
+  447 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, qreal rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:447:55: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  447 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, qreal rhs) noexcept
+      |                                      ~~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:453:28: note: candidate 9: ‘constexpr QMarginsF operator+(qreal, const QMarginsF&)’
+  453 | constexpr inline QMarginsF operator+(qreal lhs, const QMarginsF &rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:453:44: note: no known conversion for argument 1 from ‘QString’ to ‘qreal’ {aka ‘double’}
+  453 | constexpr inline QMarginsF operator+(qreal lhs, const QMarginsF &rhs) noexcept
+      |                                      ~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:528:28: note: candidate 10: ‘constexpr QMarginsF operator+(const QMarginsF&)’
+  528 | constexpr inline QMarginsF operator+(const QMarginsF &margins) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:528:28: note: candidate expects 1 argument, 2 provided
+/usr/include/qt6/QtCore/qrect.h:455:24: note: candidate 11: ‘constexpr QRect operator+(const QRect&, const QMargins&)’
+  455 | constexpr inline QRect operator+(const QRect &rectangle, const QMargins &margins) noexcept
+      |                        ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:455:47: note: no known conversion for argument 1 from ‘QString’ to ‘const QRect&’
+  455 | constexpr inline QRect operator+(const QRect &rectangle, const QMargins &margins) noexcept
+      |                                  ~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:461:24: note: candidate 12: ‘constexpr QRect operator+(const QMargins&, const QRect&)’
+  461 | constexpr inline QRect operator+(const QMargins &margins, const QRect &rectangle) noexcept
+      |                        ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:461:50: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  461 | constexpr inline QRect operator+(const QMargins &margins, const QRect &rectangle) noexcept
+      |                                  ~~~~~~~~~~~~~~~~^~~~~~~
+/usr/include/qt6/QtCore/qrect.h:899:25: note: candidate 13: ‘constexpr QRectF operator+(const QRectF&, const QMarginsF&)’
+  899 | constexpr inline QRectF operator+(const QRectF &lhs, const QMarginsF &rhs) noexcept
+      |                         ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:899:49: note: no known conversion for argument 1 from ‘QString’ to ‘const QRectF&’
+  899 | constexpr inline QRectF operator+(const QRectF &lhs, const QMarginsF &rhs) noexcept
+      |                                   ~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qrect.h:905:25: note: candidate 14: ‘constexpr QRectF operator+(const QMarginsF&, const QRectF&)’
+  905 | constexpr inline QRectF operator+(const QMarginsF &lhs, const QRectF &rhs) noexcept
+      |                         ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:905:52: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  905 | constexpr inline QRectF operator+(const QMarginsF &lhs, const QRectF &rhs) noexcept
+      |                                   ~~~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/qt6/QtGui/QTransform:1,
+                 from /usr/include/qt6/QtGui/qscreen.h:14,
+                 from /usr/include/qt6/QtGui/QScreen:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../screenpool.h:16:
+/usr/include/qt6/QtGui/qtransform.h:352:19: note: candidate 15: ‘QTransform operator+(const QTransform&, qreal)’
+  352 | inline QTransform operator +(const QTransform &a, qreal n)
+      |                   ^~~~~~~~
+/usr/include/qt6/QtGui/qtransform.h:352:48: note: no known conversion for argument 1 from ‘QString’ to ‘const QTransform&’
+  352 | inline QTransform operator +(const QTransform &a, qreal n)
+      |                              ~~~~~~~~~~~~~~~~~~^
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:447: app/CMakeFiles/latte-dock.dir/data/viewdata.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp: In member function ‘void Latte::Layout::AbstractLayout::setFile(QString)’:
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:198:43: error: use of deleted function ‘QString::QString(const char*)’
+  198 |     m_layoutGroup = KConfigGroup(filePtr, "LayoutSettings");
+      |                                           ^~~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qobject.h:11,
+                 from /usr/include/qt6/QtCore/QObject:1,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:6:
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:198:43: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  198 |     m_layoutGroup = KConfigGroup(filePtr, "LayoutSettings");
+      |                                           ^~~~~~~~~~~~~~~~
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:517: app/CMakeFiles/latte-dock.dir/layout/abstractlayout.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1219: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:1316: app/CMakeFiles/latte-dock.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
