@@ -383,7 +383,7 @@ void AbstractLayout::loadConfig()
     m_color = m_layoutGroup.readEntry("color", QStringLiteral("blue"));
     m_backgroundStyle = static_cast<BackgroundStyle>(m_layoutGroup.readEntry("backgroundStyle", (int)ColorBackgroundStyle));
 
-    m_schemeFile = m_layoutGroup.readEntry("schemeFile", QLatin1String(Data::Layout::DEFAULTSCHEMEFILE));
+    m_schemeFile = m_layoutGroup.readEntry("schemeFile", QString::fromLatin1(Data::Layout::DEFAULTSCHEMEFILE));
 
     if (m_schemeFile.startsWith(QStringLiteral("~"))) {
         m_schemeFile.remove(0, 1);
