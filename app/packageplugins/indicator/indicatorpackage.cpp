@@ -23,11 +23,11 @@ void IndicatorPackage::initPackage(KPackage::Package *package)
 {
     package->setDefaultPackageRoot(QStringLiteral("latte/indicators"));
 
-    package->addDirectoryDefinition("config", QStringLiteral("config"), i18n("Configuration Definitions"));
-    package->addDirectoryDefinition("ui", QStringLiteral("ui"), i18n("User Interface"));
-    package->addDirectoryDefinition("data", QStringLiteral("data"), i18n("Data Files"));
-    package->addDirectoryDefinition("scripts", QStringLiteral("code"), i18n("Executable Scripts"));
-    package->addDirectoryDefinition("translations", QStringLiteral("locale"), i18n("Translations"));
+    package->addDirectoryDefinition(QByteArrayLiteral("config"), QStringLiteral("config"), i18n("Configuration Definitions"));
+    package->addDirectoryDefinition(QByteArrayLiteral("ui"), QStringLiteral("ui"), i18n("User Interface"));
+    package->addDirectoryDefinition(QByteArrayLiteral("data"), QStringLiteral("data"), i18n("Data Files"));
+    package->addDirectoryDefinition(QByteArrayLiteral("scripts"), QStringLiteral("code"), i18n("Executable Scripts"));
+    package->addDirectoryDefinition(QByteArrayLiteral("translations"), QStringLiteral("locale"), i18n("Translations"));
 }
 
 }

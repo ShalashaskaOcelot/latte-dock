@@ -8,6 +8,7 @@
 
 // Qt
 #include <QObject>
+#include <QHash>
 
 // Plasma
 #include <Plasma/ContainmentActions>

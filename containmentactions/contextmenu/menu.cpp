@@ -91,7 +91,6 @@ void Menu::restore(const KConfigGroup &config)
     m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION] = new QAction(QIcon::fromTheme(QStringLiteral("list-add")), i18n("&Add Widgets..."), this);
     m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION]->setStatusTip(i18n("Show Widget Explorer"));
     connect(m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION], &QAction::triggered, this, &Menu::requestWidgetExplorer);
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::ADDWIDGETSACTION, m_actions[Latte::Data::ContextMenu::ADDWIDGETSACTION]);
 
     /*connect(m_addWidgetsAction, &QAction::triggered, [ = ]() {
         QDBusInterface iface(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"), QString(), QDBusConnection::sessionBus());
@@ -104,13 +103,11 @@ void Menu::restore(const KConfigGroup &config)
     //! Edit Dock/Panel...
     m_actions[Latte::Data::ContextMenu::EDITVIEWACTION] = new QAction(QIcon::fromTheme(QStringLiteral("document-edit")), QStringLiteral("Edit Dock..."), this);
     connect(m_actions[Latte::Data::ContextMenu::EDITVIEWACTION], &QAction::triggered, this, &Menu::requestConfiguration);
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::EDITVIEWACTION, m_actions[Latte::Data::ContextMenu::EDITVIEWACTION]);
 
 
     //! Quit Application
     m_actions[Latte::Data::ContextMenu::QUITLATTEACTION] = new QAction(QIcon::fromTheme(QStringLiteral("application-exit")), i18nc("quit application", "Quit &Latte"));
     connect(m_actions[Latte::Data::ContextMenu::QUITLATTEACTION], &QAction::triggered, this, &Menu::quitApplication);
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::QUITLATTEACTION, m_actions[Latte::Data::ContextMenu::QUITLATTEACTION]);
 
     //! Layouts submenu
     m_switchLayoutsMenu = new QMenu;
@@ -118,7 +115,6 @@ void Menu::restore(const KConfigGroup &config)
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setText(i18n("&Layouts"));
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setIcon(QIcon::fromTheme(QStringLiteral("user-identity")));
     m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]->setStatusTip(i18n("Switch to another layout"));
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::LAYOUTSACTION, m_actions[Latte::Data::ContextMenu::LAYOUTSACTION]);
 
     connect(m_switchLayoutsMenu, &QMenu::aboutToShow, this, &Menu::populateLayouts);
     connect(m_switchLayoutsMenu, &QMenu::triggered, this, &Menu::switchToLayout);
@@ -129,7 +125,6 @@ void Menu::restore(const KConfigGroup &config)
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setText(i18n("&Add Dock/Panel"));
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setIcon(QIcon::fromTheme(QStringLiteral("list-add")));
     m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]->setStatusTip(i18n("Add dock or panel based on specific template"));
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::ADDVIEWACTION, m_actions[Latte::Data::ContextMenu::ADDVIEWACTION]);
 
     connect(m_addViewMenu, &QMenu::aboutToShow, this, &Menu::populateViewTemplates);
     connect(m_addViewMenu, &QMenu::triggered, this, &Menu::addView);
@@ -140,14 +135,12 @@ void Menu::restore(const KConfigGroup &config)
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setText("Move To Layout");
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setIcon(QIcon::fromTheme(QStringLiteral("transform-move-horizontal")));
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setStatusTip(i18n("Move dock or panel to different layout"));
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::MOVEVIEWACTION, m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]);
 
     connect(m_moveToLayoutMenu, &QMenu::aboutToShow, this, &Menu::populateMoveToLayouts);
     connect(m_moveToLayoutMenu, &QMenu::triggered, this, &Menu::moveToLayout);
 
     //! Configure Latte
     m_actions[Latte::Data::ContextMenu::PREFERENCESACTION] = new QAction(QIcon::fromTheme(QStringLiteral("configure")), i18nc("global settings window", "&Configure Latte..."), this);
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::PREFERENCESACTION, m_actions[Latte::Data::ContextMenu::PREFERENCESACTION]);
     connect(m_actions[Latte::Data::ContextMenu::PREFERENCESACTION], &QAction::triggered, [=](){
         QDBusInterface iface(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"), QString(), QDBusConnection::sessionBus());
 
@@ -165,7 +158,6 @@ void Menu::restore(const KConfigGroup &config)
             iface.call(QStringLiteral("duplicateView"), containment()->id());
         }
     });
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::DUPLICATEVIEWACTION, m_actions[Latte::Data::ContextMenu::DUPLICATEVIEWACTION]);
 
     //! Export View Template Action
     m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION] = new QAction(QIcon::fromTheme(QStringLiteral("document-export")), QStringLiteral("Export as Template..."), this);
@@ -176,7 +168,6 @@ void Menu::restore(const KConfigGroup &config)
             iface.call(QStringLiteral("exportViewTemplate"), containment()->id());
         }
     });
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION, m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION]);
 
     //! Remove Action
     m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION] = new QAction(QIcon::fromTheme(QStringLiteral("delete")), QStringLiteral("Remove Dock"), this);
@@ -187,7 +178,6 @@ void Menu::restore(const KConfigGroup &config)
             iface.call(QStringLiteral("removeView"), containment()->id());
         }
     });
-    this->containment()->actions()->addAction(Latte::Data::ContextMenu::REMOVEVIEWACTION, m_actions[Latte::Data::ContextMenu::REMOVEVIEWACTION]);
 
     //! Signals
     connect(this->containment(), &Plasma::Containment::userConfiguringChanged, [=](){
@@ -232,7 +222,7 @@ QList<QAction *> Menu::contextualActions()
         m_viewTemplates = templatesData.value();
     }
 
-    m_actionsAlwaysShown = m_data[ACTIONSALWAYSSHOWN].split(";;");
+    m_actionsAlwaysShown = m_data[ACTIONSALWAYSSHOWN].split(QStringLiteral(";;"));
 
     updateViewData();
 
@@ -248,7 +238,7 @@ QList<QAction *> Menu::contextualActions()
     const QString exportTemplateText = (m_view.type == DockView) ? i18n("E&xport Dock as Template") : i18n("E&xport Panel as Template");
     m_actions[Latte::Data::ContextMenu::EXPORTVIEWTEMPLATEACTION]->setText(exportTemplateText);
 
-    m_activeLayoutNames = m_data[ACTIVELAYOUTSINDEX].split(";;");
+    m_activeLayoutNames = m_data[ACTIVELAYOUTSINDEX].split(QStringLiteral(";;"));
     const QString moveText = (m_view.type == DockView) ? i18n("&Move Dock To Layout") : i18n("&Move Panel To Layout");
     m_actions[Latte::Data::ContextMenu::MOVEVIEWACTION]->setText(moveText);
 
@@ -318,15 +308,15 @@ void Menu::populateLayouts()
     m_switchLayoutsMenu->clear();
 
     LayoutsMemoryUsage memoryUsage = static_cast<LayoutsMemoryUsage>((m_data[MEMORYINDEX]).toInt());
-    QStringList activeNames = m_data[ACTIVELAYOUTSINDEX].split(";;");
-    QStringList currentNames = m_data[CURRENTLAYOUTSINDEX].split(";;");
+    QStringList activeNames = m_data[ACTIVELAYOUTSINDEX].split(QStringLiteral(";;"));
+    QStringList currentNames = m_data[CURRENTLAYOUTSINDEX].split(QStringLiteral(";;"));
 
     QList<LayoutInfo> layoutsmenulist;
 
-    QStringList layoutsdata = m_data[LAYOUTMENUINDEX].split(";;");
+    QStringList layoutsdata = m_data[LAYOUTMENUINDEX].split(QStringLiteral(";;"));
 
     for (int i=0; i<layoutsdata.count(); ++i) {
-        QStringList cdata = layoutsdata[i].split("**");
+        QStringList cdata = layoutsdata[i].split(QStringLiteral("**"));
 
         LayoutInfo info;
         info.layoutName = cdata[0];
@@ -366,7 +356,7 @@ void Menu::populateLayouts()
     editaction->setVisible(false);
 
     LayoutMenuItemWidget *editmenuitem = new LayoutMenuItemWidget(editaction, m_switchLayoutsMenu);
-    editmenuitem->setIcon(false, "document-edit");
+    editmenuitem->setIcon(false, QStringLiteral("document-edit"));
     editaction->setDefaultWidget(editmenuitem);
     m_switchLayoutsMenu->addAction(editaction);
 }
@@ -378,16 +368,16 @@ void Menu::populateMoveToLayouts()
     LayoutsMemoryUsage memoryUsage = static_cast<LayoutsMemoryUsage>((m_data[MEMORYINDEX]).toInt());
 
     if (memoryUsage == LayoutsMemoryUsage::MultipleLayouts) {
-        QStringList activeNames = m_data[ACTIVELAYOUTSINDEX].split(";;");
-        QStringList currentNames = m_data[CURRENTLAYOUTSINDEX].split(";;");
+        QStringList activeNames = m_data[ACTIVELAYOUTSINDEX].split(QStringLiteral(";;"));
+        QStringList currentNames = m_data[CURRENTLAYOUTSINDEX].split(QStringLiteral(";;"));
         QString viewLayoutName = m_data[VIEWLAYOUTINDEX];
 
         QList<LayoutInfo> layoutsmenulist;
 
-        QStringList layoutsdata = m_data[LAYOUTMENUINDEX].split(";;");
+        QStringList layoutsdata = m_data[LAYOUTMENUINDEX].split(QStringLiteral(";;"));
 
         for (int i=0; i<layoutsdata.count(); ++i) {
-            QStringList cdata = layoutsdata[i].split("**");
+            QStringList cdata = layoutsdata[i].split(QStringLiteral("**"));
 
             LayoutInfo info;
             info.layoutName = cdata[0];
@@ -417,7 +407,7 @@ void Menu::populateMoveToLayouts()
 
 void Menu::updateViewData()
 {
-    QStringList vdata = m_data[VIEWTYPEINDEX].split(";;");
+    QStringList vdata = m_data[VIEWTYPEINDEX].split(QStringLiteral(";;"));
     m_view.type = static_cast<ViewType>((vdata[0]).toInt());
     m_view.isCloned = vdata[1].toInt();
     m_view.clonesCount = vdata[2].toInt();

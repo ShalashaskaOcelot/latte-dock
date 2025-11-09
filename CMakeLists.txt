@@ -41,6 +41,7 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
 find_package(PlasmaActivities REQUIRED)
 find_package(Plasma REQUIRED)
 find_package(Plasma5Support REQUIRED)
+find_package(PlasmaQuick REQUIRED)
 
 find_package(LibTaskManager REQUIRED)
 add_definitions(-DPLASMA_WORKSPACE_VERSION="${LibTaskManager_VERSION}")

@@ -9,9 +9,6 @@
 // Qt
 #include <QQmlExtensionPlugin>
 
-// Plasma
-#include <PlasmaQuick/Dialog>
-
 class LatteTasksPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT

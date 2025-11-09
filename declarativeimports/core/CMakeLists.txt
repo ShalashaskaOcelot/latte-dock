@@ -18,6 +18,7 @@ target_link_libraries(lattecoreplugin
     KF6::CoreAddons
     Plasma::Plasma
     Plasma::Plasma5Support
+    Plasma::PlasmaQuick
     KF6::IconThemes
 )
 

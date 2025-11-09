@@ -27,31 +27,31 @@ static const char QUITLATTEACTION[] = "_quit_latte";
 static const char SECTIONACTION[]= "_latte_section";
 static const char SEPARATOR1ACTION[] = "_separator1";
 
-static QStringList ACTIONSEDITORDER = {LAYOUTSACTION,
-                                       PREFERENCESACTION,
-                                       QUITLATTEACTION,
-                                       SEPARATOR1ACTION,
-                                       ADDWIDGETSACTION,
-                                       ADDVIEWACTION,
-                                       MOVEVIEWACTION,
-                                       EXPORTVIEWTEMPLATEACTION,
-                                       REMOVEVIEWACTION};
+static QStringList ACTIONSEDITORDER = {QString::fromLatin1(LAYOUTSACTION),
+                                       QString::fromLatin1(PREFERENCESACTION),
+                                       QString::fromLatin1(QUITLATTEACTION),
+                                       QString::fromLatin1(SEPARATOR1ACTION),
+                                       QString::fromLatin1(ADDWIDGETSACTION),
+                                       QString::fromLatin1(ADDVIEWACTION),
+                                       QString::fromLatin1(MOVEVIEWACTION),
+                                       QString::fromLatin1(EXPORTVIEWTEMPLATEACTION),
+                                       QString::fromLatin1(REMOVEVIEWACTION)};
 
-static QStringList ACTIONSALWAYSVISIBLE = {LAYOUTSACTION,
-                                           PREFERENCESACTION,
-                                           QUITLATTEACTION,
-                                           SEPARATOR1ACTION,
-                                           ADDWIDGETSACTION,
-                                           ADDVIEWACTION};
+static QStringList ACTIONSALWAYSVISIBLE = {QString::fromLatin1(LAYOUTSACTION),
+                                           QString::fromLatin1(PREFERENCESACTION),
+                                           QString::fromLatin1(QUITLATTEACTION),
+                                           QString::fromLatin1(SEPARATOR1ACTION),
+                                           QString::fromLatin1(ADDWIDGETSACTION),
+                                           QString::fromLatin1(ADDVIEWACTION)};
 
-static QStringList ACTIONSALWAYSHIDDEN = {PRINTACTION};
+static QStringList ACTIONSALWAYSHIDDEN = {QString::fromLatin1(PRINTACTION)};
 
-static QStringList ACTIONSVISIBLEONLYINEDIT = {MOVEVIEWACTION,
-                                               EXPORTVIEWTEMPLATEACTION,
-                                               REMOVEVIEWACTION};
+static QStringList ACTIONSVISIBLEONLYINEDIT = {QString::fromLatin1(MOVEVIEWACTION),
+                                               QString::fromLatin1(EXPORTVIEWTEMPLATEACTION),
+                                               QString::fromLatin1(REMOVEVIEWACTION)};
 
-static QStringList ACTIONSSPECIAL = {SECTIONACTION,
-                                     EDITVIEWACTION};
+static QStringList ACTIONSSPECIAL = {QString::fromLatin1(SECTIONACTION),
+                                     QString::fromLatin1(EDITVIEWACTION)};
 
 }
 }

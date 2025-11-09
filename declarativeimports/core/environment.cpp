@@ -72,9 +72,9 @@ uint Environment::identifyPlasmaDesktopVersion()
         if (maj > 0) {
             uint desktopVersion = makeVersion(maj, min, rel);
 
-            QString message("Plasma Desktop version:  " + QString::number(maj) + "."
-                    + QString::number(min) + "." + QString::number(rel)
-                    + " (" + QString::number(desktopVersion) + ")");
+            QString message(QStringLiteral("Plasma Desktop version:  ") + QString::number(maj) + QStringLiteral(".")
+                    + QString::number(min) + QStringLiteral(".") + QString::number(rel)
+                    + QStringLiteral(" (") + QString::number(desktopVersion) + QStringLiteral(")"));
             qDebug() << message;
             qDebug() << " /////////////////////////";
 
