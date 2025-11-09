@@ -1,0 +1,857 @@
+[  0%] Built target plasma_containmentactions_lattecontextmenu_autogen_timestamp_deps
+[  1%] Generating ts...
+[  1%] Built target lattetasksplugin_autogen_timestamp_deps
+[  2%] Built target lattecoreplugin_autogen_timestamp_deps
+[  2%] Built target lattecontainmentplugin_autogen_timestamp_deps
+[  2%] Built target latte-dock_autogen_timestamp_deps
+[  2%] Built target latte_packagestructure_indicator_autogen_timestamp_deps
+[  2%] Generating mo...
+[  2%] Built target tsfiles-3db632b4b7d16f6228e617c00fd1fb1e
+[  3%] Built target lattecoreplugin_autogen
+[  5%] Built target latte_packagestructure_indicator_autogen
+[  5%] Built target lattecontainmentplugin_autogen
+[  5%] Built target plasma_containmentactions_lattecontextmenu_autogen
+[  5%] Built target lattetasksplugin_autogen
+[  5%] Built target pofiles-3db632b4b7d16f6228e617c00fd1fb1e
+[  6%] Automatic MOC for target latte-dock
+[ 10%] Built target latte_packagestructure_indicator
+[ 10%] Built target lattetasksplugin
+[ 13%] Built target plasma_containmentactions_lattecontextmenu
+[ 16%] Built target lattecontainmentplugin
+[ 16%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin_autogen/mocs_compilation.cpp.o
+[ 16%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/iconitem.cpp.o
+[ 17%] Building CXX object declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin.cpp.o
+[ 17%] Built target latte-dock_autogen
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/lattecorona.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/infoview.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/alternativeshelper.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/primaryoutputwatcher.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/latte-dock_autogen/mocs_compilation.cpp.o
+[ 20%] Building CXX object app/CMakeFiles/latte-dock.dir/main.cpp.o
+[ 21%] Building CXX object app/CMakeFiles/latte-dock.dir/data/viewdata.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/storage.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/declarativeimports/interfaces.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/centrallayout.cpp.o
+[ 24%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/importer.cpp.o
+[ 25%] Building CXX object app/CMakeFiles/latte-dock.dir/plasma/extended/backgroundcache.cpp.o
+[ 26%] Building CXX object app/CMakeFiles/latte-dock.dir/data/viewstable.cpp.o
+[ 26%] Building CXX object app/CMakeFiles/latte-dock.dir/indicator/factory.cpp.o
+[ 27%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/genericlayout.cpp.o
+[ 27%] Building CXX object app/CMakeFiles/latte-dock.dir/layout/abstractlayout.cpp.o
+[ 27%] Building CXX object app/CMakeFiles/latte-dock.dir/declarativeimports/contextmenulayerquickitem.cpp.o
+[ 27%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/manager.cpp.o
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/syncedlaunchers.cpp.o
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/package/lattepackage.cpp.o
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/layouts/synchronizer.cpp.o
+In file included from /home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/EWIEGA46WW/moc_iconitem.cpp:9,
+                 from /home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/mocs_compilation.cpp:5:
+/home/sam/Documents/dev/latte-dock/build/declarativeimports/core/lattecoreplugin_autogen/EWIEGA46WW/../../../../../declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/declarativeimports/core/lattecoreplugin.cpp:13:
+/home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:85: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin_autogen/mocs_compilation.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.cpp:12:
+/home/sam/Documents/dev/latte-dock/declarativeimports/core/iconitem.h:25:10: fatal error: Plasma5Support/Svg: No such file or directory
+   25 | #include <Plasma5Support/Svg>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:99: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/lattecoreplugin.cpp.o] Error 1
+make[2]: *** [declarativeimports/core/CMakeFiles/lattecoreplugin.dir/build.make:141: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/iconitem.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1219: declarativeimports/core/CMakeFiles/lattecoreplugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 28%] Building CXX object app/CMakeFiles/latte-dock.dir/plasma/extended/backgroundtracker.cpp.o
+[ 29%] Building CXX object app/CMakeFiles/latte-dock.dir/plasma/extended/panelbackground.cpp.o
+[ 30%] Building CXX object app/CMakeFiles/latte-dock.dir/plasma/extended/screengeometries.cpp.o
+In file included from /home/sam/Documents/dev/latte-dock/app/package/lattepackage.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/package/lattepackage.h:15:10: fatal error: KPackage/PackageStructure: No such file or directory
+   15 | #include <KPackage/PackageStructure>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:629: app/CMakeFiles/latte-dock.dir/package/lattepackage.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/sam/Documents/dev/latte-dock/app/layout/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/genericlayout.cpp:12:
+/home/sam/Documents/dev/latte-dock/app/layout/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:545: app/CMakeFiles/latte-dock.dir/layout/genericlayout.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/syncedlaunchers.cpp:9:
+/home/sam/Documents/dev/latte-dock/app/layouts/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:601: app/CMakeFiles/latte-dock.dir/layouts/syncedlaunchers.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/declarativeimports/interfaces.cpp:6:
+/home/sam/Documents/dev/latte-dock/app/declarativeimports/interfaces.h:14:10: fatal error: PlasmaQuick/AppletQuickItem: No such file or directory
+   14 | #include <PlasmaQuick/AppletQuickItem>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:489: app/CMakeFiles/latte-dock.dir/declarativeimports/interfaces.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/storage.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:587: app/CMakeFiles/latte-dock.dir/layouts/storage.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/infoview.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/infoview.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:181: app/CMakeFiles/latte-dock.dir/infoview.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/main.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:237: app/CMakeFiles/latte-dock.dir/main.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/primaryoutputwatcher.cpp:16:10: fatal error: KWayland/Client/connection_thread.h: No such file or directory
+   16 | #include <KWayland/Client/connection_thread.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:223: app/CMakeFiles/latte-dock.dir/primaryoutputwatcher.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/ZUF5Y6WZWO/moc_interfaces.cpp:9,
+                 from /home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/mocs_compilation.cpp:4:
+/home/sam/Documents/dev/latte-dock/build/app/latte-dock_autogen/ZUF5Y6WZWO/../../../../app/declarativeimports/interfaces.h:14:10: fatal error: PlasmaQuick/AppletQuickItem: No such file or directory
+   14 | #include <PlasmaQuick/AppletQuickItem>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:139: app/CMakeFiles/latte-dock.dir/latte-dock_autogen/mocs_compilation.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/importer.cpp:12:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:559: app/CMakeFiles/latte-dock.dir/layouts/importer.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layout/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/centrallayout.cpp:13:
+/home/sam/Documents/dev/latte-dock/app/layout/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:531: app/CMakeFiles/latte-dock.dir/layout/centrallayout.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/alternativeshelper.cpp:14:10: fatal error: KPackage/Package: No such file or directory
+   14 | #include <KPackage/Package>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:153: app/CMakeFiles/latte-dock.dir/alternativeshelper.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/lattecorona.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:195: app/CMakeFiles/latte-dock.dir/lattecorona.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/synchronizer.cpp:11:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:615: app/CMakeFiles/latte-dock.dir/layouts/synchronizer.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/declarativeimports/../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/declarativeimports/contextmenulayerquickitem.cpp:9:
+/home/sam/Documents/dev/latte-dock/app/declarativeimports/../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutsmodel.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/layoutscontroller.h:12,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/settingsdialog.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.h:17,
+                 from /home/sam/Documents/dev/latte-dock/app/layouts/manager.cpp:8:
+/home/sam/Documents/dev/latte-dock/app/layouts/../settings/settingsdialog/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:573: app/CMakeFiles/latte-dock.dir/layouts/manager.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:475: app/CMakeFiles/latte-dock.dir/declarativeimports/contextmenulayerquickitem.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/plasma/extended/panelbackground.cpp:6:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/panelbackground.h:14:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   14 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:671: app/CMakeFiles/latte-dock.dir/plasma/extended/panelbackground.cpp.o] Error 1
+In file included from /home/sam/Documents/dev/latte-dock/app/plasma/extended/../../lattecorona.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/plasma/extended/screengeometries.cpp:9:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/../../view/panelshadows_p.h:11:10: fatal error: Plasma5Support/FrameSvg: No such file or directory
+   11 | #include <Plasma5Support/FrameSvg>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:685: app/CMakeFiles/latte-dock.dir/plasma/extended/screengeometries.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp: In member function ‘void Latte::BackgroundTracker::setLocation(int)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp:47:5: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+   47 |     emit locationChanged();
+      |     ^~~~
+      |     exit
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp: In member function ‘void Latte::BackgroundTracker::setActivity(QString)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp:68:5: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+   68 |     emit activityChanged();
+      |     ^~~~
+      |     exit
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp: In member function ‘void Latte::BackgroundTracker::setScreenName(QString)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp:84:5: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+   84 |     emit screenNameChanged();
+      |     ^~~~
+      |     exit
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp: In member function ‘void Latte::BackgroundTracker::update()’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp:103:5: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+  103 |     emit currentBrightnessChanged();
+      |     ^~~~
+      |     exit
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundtracker.cpp:104:9: error: expected ‘;’ before ‘isBusyChanged’
+  104 |     emit isBusyChanged();
+      |         ^~~~~~~~~~~~~~
+      |         ;
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp: In member function ‘Latte::Data::View::operator QString() const’:
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:35: error: no match for ‘operator+’ (operand types are ‘QString’ and ‘const Latte::Data::GenericTable<Latte::Data::Generic>’)
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                   ^ ~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     const Latte::Data::GenericTable<Latte::Data::Generic>
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:35: note: there are 15 candidates
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                   ^
+In file included from /usr/include/qt6/QtCore/qstring.h:1770,
+                 from /usr/include/qt6/QtCore/qobject.h:11,
+                 from /usr/include/qt6/QtCore/QObject:1,
+                 from /home/sam/Documents/dev/latte-dock/build/app/coretypes.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:6:
+/usr/include/qt6/QtCore/qstringbuilder.h:416:6: note: candidate 1: ‘template<class A, class B, class> auto operator+(A&&, B&&)’
+  416 | auto operator+(A &&a, B &&b)
+      |      ^~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:416:6: note: template argument deduction/substitution failed:
+/usr/include/qt6/QtCore/qstringbuilder.h:415:10: error: invalid use of incomplete type ‘struct QConcatenable<Latte::Data::GenericTable<Latte::Data::Generic> >’
+  415 |          typename = std::void_t<typename QConcatenableEx<A>::type, typename QConcatenableEx<B>::type>>
+      |          ^~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:34:30: note: declaration of ‘struct QConcatenable<Latte::Data::GenericTable<Latte::Data::Generic> >’
+   34 | template <typename T> struct QConcatenable;
+      |                              ^~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qdebug.h:42,
+                 from /usr/include/qt6/QtCore/qvariant.h:12,
+                 from /usr/include/qt6/QtCore/qmetaobject.h:10,
+                 from /usr/include/qt6/QtCore/QMetaEnum:1,
+                 from /home/sam/Documents/dev/latte-dock/build/app/coretypes.h:11:
+/usr/include/qt6/QtCore/qmap.h:1602:19: note: candidate 2: ‘template<class Key, class T> QMultiMap<Key, T> operator+(const QMultiMap<Key, T>&, const QMultiMap<Key, T>&)’
+ 1602 | QMultiMap<Key, T> operator+(const QMultiMap<Key, T> &lhs, const QMultiMap<Key, T> &rhs)
+      |                   ^~~~~~~~
+/usr/include/qt6/QtCore/qmap.h:1602:19: note: template argument deduction/substitution failed:
+/home/sam/Documents/dev/latte-dock/app/data/viewdata.cpp:232:37: note:   ‘QString’ is not derived from ‘const QMultiMap<Key, T>’
+  232 |     result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
+      |                                     ^~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qrect.h:9,
+                 from /usr/include/qt6/QtCore/QRect:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../data/screendata.h:15,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../screenpool.h:11,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewdata.h:12:
+/usr/include/qt6/QtCore/qmargins.h:156:27: note: candidate 3: ‘constexpr QMargins operator+(const QMargins&, const QMargins&)’
+  156 | constexpr inline QMargins operator+(const QMargins &m1, const QMargins &m2) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:156:53: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  156 | constexpr inline QMargins operator+(const QMargins &m1, const QMargins &m2) noexcept
+      |                                     ~~~~~~~~~~~~~~~~^~
+/usr/include/qt6/QtCore/qmargins.h:168:27: note: candidate 4: ‘constexpr QMargins operator+(const QMargins&, int)’
+  168 | constexpr inline QMargins operator+(const QMargins &lhs, int rhs) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:168:53: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  168 | constexpr inline QMargins operator+(const QMargins &lhs, int rhs) noexcept
+      |                                     ~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:174:27: note: candidate 5: ‘constexpr QMargins operator+(int, const QMargins&)’
+  174 | constexpr inline QMargins operator+(int lhs, const QMargins &rhs) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:174:41: note: no known conversion for argument 1 from ‘QString’ to ‘int’
+  174 | constexpr inline QMargins operator+(int lhs, const QMargins &rhs) noexcept
+      |                                     ~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:284:27: note: candidate 6: ‘constexpr QMargins operator+(const QMargins&)’
+  284 | constexpr inline QMargins operator+(const QMargins &margins) noexcept
+      |                           ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:284:27: note: candidate expects 1 argument, 2 provided
+/usr/include/qt6/QtCore/qmargins.h:435:28: note: candidate 7: ‘constexpr QMarginsF operator+(const QMarginsF&, const QMarginsF&)’
+  435 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, const QMarginsF &rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:435:55: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  435 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, const QMarginsF &rhs) noexcept
+      |                                      ~~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:447:28: note: candidate 8: ‘constexpr QMarginsF operator+(const QMarginsF&, qreal)’
+  447 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, qreal rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:447:55: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  447 | constexpr inline QMarginsF operator+(const QMarginsF &lhs, qreal rhs) noexcept
+      |                                      ~~~~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:453:28: note: candidate 9: ‘constexpr QMarginsF operator+(qreal, const QMarginsF&)’
+  453 | constexpr inline QMarginsF operator+(qreal lhs, const QMarginsF &rhs) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:453:44: note: no known conversion for argument 1 from ‘QString’ to ‘qreal’ {aka ‘double’}
+  453 | constexpr inline QMarginsF operator+(qreal lhs, const QMarginsF &rhs) noexcept
+      |                                      ~~~~~~^~~
+/usr/include/qt6/QtCore/qmargins.h:528:28: note: candidate 10: ‘constexpr QMarginsF operator+(const QMarginsF&)’
+  528 | constexpr inline QMarginsF operator+(const QMarginsF &margins) noexcept
+      |                            ^~~~~~~~
+/usr/include/qt6/QtCore/qmargins.h:528:28: note: candidate expects 1 argument, 2 provided
+/usr/include/qt6/QtCore/qrect.h:455:24: note: candidate 11: ‘constexpr QRect operator+(const QRect&, const QMargins&)’
+  455 | constexpr inline QRect operator+(const QRect &rectangle, const QMargins &margins) noexcept
+      |                        ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:455:47: note: no known conversion for argument 1 from ‘QString’ to ‘const QRect&’
+  455 | constexpr inline QRect operator+(const QRect &rectangle, const QMargins &margins) noexcept
+      |                                  ~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:461:24: note: candidate 12: ‘constexpr QRect operator+(const QMargins&, const QRect&)’
+  461 | constexpr inline QRect operator+(const QMargins &margins, const QRect &rectangle) noexcept
+      |                        ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:461:50: note: no known conversion for argument 1 from ‘QString’ to ‘const QMargins&’
+  461 | constexpr inline QRect operator+(const QMargins &margins, const QRect &rectangle) noexcept
+      |                                  ~~~~~~~~~~~~~~~~^~~~~~~
+/usr/include/qt6/QtCore/qrect.h:899:25: note: candidate 13: ‘constexpr QRectF operator+(const QRectF&, const QMarginsF&)’
+  899 | constexpr inline QRectF operator+(const QRectF &lhs, const QMarginsF &rhs) noexcept
+      |                         ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:899:49: note: no known conversion for argument 1 from ‘QString’ to ‘const QRectF&’
+  899 | constexpr inline QRectF operator+(const QRectF &lhs, const QMarginsF &rhs) noexcept
+      |                                   ~~~~~~~~~~~~~~^~~
+/usr/include/qt6/QtCore/qrect.h:905:25: note: candidate 14: ‘constexpr QRectF operator+(const QMarginsF&, const QRectF&)’
+  905 | constexpr inline QRectF operator+(const QMarginsF &lhs, const QRectF &rhs) noexcept
+      |                         ^~~~~~~~
+/usr/include/qt6/QtCore/qrect.h:905:52: note: no known conversion for argument 1 from ‘QString’ to ‘const QMarginsF&’
+  905 | constexpr inline QRectF operator+(const QMarginsF &lhs, const QRectF &rhs) noexcept
+      |                                   ~~~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/qt6/QtGui/QTransform:1,
+                 from /usr/include/qt6/QtGui/qscreen.h:14,
+                 from /usr/include/qt6/QtGui/QScreen:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/../screenpool.h:16:
+/usr/include/qt6/QtGui/qtransform.h:352:19: note: candidate 15: ‘QTransform operator+(const QTransform&, qreal)’
+  352 | inline QTransform operator +(const QTransform &a, qreal n)
+      |                   ^~~~~~~~
+/usr/include/qt6/QtGui/qtransform.h:352:48: note: no known conversion for argument 1 from ‘QString’ to ‘const QTransform&’
+  352 | inline QTransform operator +(const QTransform &a, qreal n)
+      |                              ~~~~~~~~~~~~~~~~~~^
+In file included from /usr/include/qt6/QtCore/qstring.h:1770,
+                 from /usr/include/qt6/QtCore/QString:1,
+                 from /home/sam/Documents/dev/latte-dock/app/data/genericdata.h:13,
+                 from /home/sam/Documents/dev/latte-dock/app/data/generictable.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewstable.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/data/viewstable.cpp:6:
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const char (&)[21]; B = QString; type = QStringBuilder<const char (&)[21], QString>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = const char (&)[21]; B = QString]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = const char (&)[21]; B = QString; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/data/viewstable.cpp:127:50:   required from here
+  127 |     qDebug().noquote() << "Views initialized : " + (isInitialized ? QStringLiteral("true") : QStringLiteral("false"));
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 21]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In constructor ‘Latte::PlasmaExtended::BackgroundCache::BackgroundCache(QObject*)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:29:22: error: use of deleted function ‘QString::QString(const char*)’
+   29 | #define PLASMACONFIG "plasma-org.kde.plasma.desktop-appletsrc"
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:38:48: note: in expansion of macro ‘PLASMACONFIG’
+   38 |       m_plasmaConfig(KSharedConfig::openConfig(PLASMACONFIG))
+      |                                                ^~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qhashfunctions.h:9,
+                 from /usr/include/qt6/QtCore/qhash.h:10,
+                 from /usr/include/qt6/QtCore/QHash:1,
+                 from /home/sam/Documents/dev/latte-dock/app/plasma/extended/screenpool.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:6:
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:29:22: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   29 | #define PLASMACONFIG "plasma-org.kde.plasma.desktop-appletsrc"
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:38:48: note: in expansion of macro ‘PLASMACONFIG’
+   38 |       m_plasmaConfig(KSharedConfig::openConfig(PLASMACONFIG))
+      |                                                ^~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:30:26: error: use of deleted function ‘QString::QString(const char*)’
+   30 | #define DEFAULTWALLPAPER "wallpapers/Next/contents/images/1920x1080.png"
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:44:50: note: in expansion of macro ‘DEFAULTWALLPAPER’
+   44 |     m_defaultWallpaperPath = Latte::standardPath(DEFAULTWALLPAPER);
+      |                                                  ^~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:30:26: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   30 | #define DEFAULTWALLPAPER "wallpapers/Next/contents/images/1920x1080.png"
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:44:50: note: in expansion of macro ‘DEFAULTWALLPAPER’
+   44 |     m_defaultWallpaperPath = Latte::standardPath(DEFAULTWALLPAPER);
+      |                                                  ^~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘void Latte::PlasmaExtended::BackgroundCache::settingsFileChanged(const QString&)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:29:22: error: use of deleted function ‘QString::QString(const char*)’
+   29 | #define PLASMACONFIG "plasma-org.kde.plasma.desktop-appletsrc"
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:75:24: note: in expansion of macro ‘PLASMACONFIG’
+   75 |     if (!file.endsWith(PLASMACONFIG)) {
+      |                        ^~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:29:22: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   29 | #define PLASMACONFIG "plasma-org.kde.plasma.desktop-appletsrc"
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:75:24: note: in expansion of macro ‘PLASMACONFIG’
+   75 |     if (!file.endsWith(PLASMACONFIG)) {
+      |                        ^~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘QString Latte::PlasmaExtended::BackgroundCache::backgroundFromConfig(const KConfigGroup&, QString) const’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:87:41: error: use of deleted function ‘QString::QString(const char*)’
+   87 |     auto wallpaperConfig = config.group("Wallpaper").group(wallpaperPlugin).group("General");
+      |                                         ^~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:87:41: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   87 |     auto wallpaperConfig = config.group("Wallpaper").group(wallpaperPlugin).group("General");
+      |                                         ^~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘void Latte::PlasmaExtended::BackgroundCache::reload()’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:121:67: error: use of deleted function ‘QString::QString(const char*)’
+  121 |     KConfigGroup plasmaConfigContainments = m_plasmaConfig->group("Containments");
+      |                                                                   ^~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:121:67: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  121 |     KConfigGroup plasmaConfigContainments = m_plasmaConfig->group("Containments");
+      |                                                                   ^~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:140:35: error: use of deleted function ‘QString::QString(const char*)’
+  140 |         if (background.startsWith("file://")) {
+      |                                   ^~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:140:35: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  140 |         if (background.startsWith("file://")) {
+      |                                   ^~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:174:13: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+  174 |             emit backgroundChanged(activity, screen);
+      |             ^~~~
+      |             exit
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:657: app/CMakeFiles/latte-dock.dir/plasma/extended/backgroundtracker.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:461: app/CMakeFiles/latte-dock.dir/data/viewstable.cpp.o] Error 1
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:447: app/CMakeFiles/latte-dock.dir/data/viewdata.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘float Latte::PlasmaExtended::BackgroundCache::brightnessForFile(QString, Plasma::Types::Location)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:380:30: error: use of deleted function ‘QString::QString(const char*)’
+  380 |     if (imageFile.startsWith("#")) {
+      |                              ^~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:380:30: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  380 |     if (imageFile.startsWith("#")) {
+      |                              ^~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘bool Latte::PlasmaExtended::BackgroundCache::busyForFile(QString, Plasma::Types::Location)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:402:30: error: use of deleted function ‘QString::QString(const char*)’
+  402 |     if (imageFile.startsWith("#")) {
+      |                              ^~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:402:30: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  402 |     if (imageFile.startsWith("#")) {
+      |                              ^~~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp: In member function ‘void Latte::PlasmaExtended::BackgroundCache::setBackgroundFromBroadcast(QString, QString, QString)’:
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:429:9: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+  429 |         emit backgroundChanged(activity, screen);
+      |         ^~~~
+      |         exit
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp: In member function ‘void Latte::Layout::AbstractLayout::setFile(QString)’:
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:198:43: error: use of deleted function ‘QString::QString(const char*)’
+  198 |     m_layoutGroup = KConfigGroup(filePtr, "LayoutSettings");
+      |                                           ^~~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qobject.h:11,
+                 from /usr/include/qt6/QtCore/QObject:1,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:6:
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/layout/abstractlayout.cpp:198:43: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  198 |     m_layoutGroup = KConfigGroup(filePtr, "LayoutSettings");
+      |                                           ^~~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qstring.h:1770:
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<QString, QLatin1Char>; B = const char (&)[40]; type = QStringBuilder<QStringBuilder<QString, QLatin1Char>, const char (&)[40]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<QString, QLatin1Char>; B = const char (&)[40]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<QString, QLatin1Char>; B = const char (&)[40]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/plasma/extended/backgroundcache.cpp:48:32:   required from here
+   48 |     KDirWatch::self()->addFile(configFile);
+      |                                ^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 40]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:643: app/CMakeFiles/latte-dock.dir/plasma/extended/backgroundcache.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In constructor ‘Latte::Indicator::Factory::Factory(QObject*)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:71:27: error: use of deleted function ‘QString::QString(const char*)’
+   71 |     qDebug() << m_plugins["org.kde.latte.default"].name();
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qobject.h:11,
+                 from /usr/include/qt6/QtCore/QObject:1,
+                 from /home/sam/Documents/dev/latte-dock/app/indicator/../apptypes.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/indicator/factory.h:10,
+                 from /home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:6:
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:71:27: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+   71 |     qDebug() << m_plugins["org.kde.latte.default"].name();
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In member function ‘void Latte::Indicator::Factory::reload(const QString&)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:117:54: error: use of deleted function ‘QString::QString(const char*)’
+  117 |     if (!indicatorPath.isEmpty() && indicatorPath != "." && indicatorPath != "..") {
+      |                                                      ^~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:117:54: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  117 |     if (!indicatorPath.isEmpty() && indicatorPath != "." && indicatorPath != "..") {
+      |                                                      ^~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:117:78: error: use of deleted function ‘QString::QString(const char*)’
+  117 |     if (!indicatorPath.isEmpty() && indicatorPath != "." && indicatorPath != "..") {
+      |                                                                              ^~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:117:78: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  117 |     if (!indicatorPath.isEmpty() && indicatorPath != "." && indicatorPath != "..") {
+      |                                                                              ^~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:125:79: error: use of deleted function ‘QString::QString(const char*)’
+  125 |                 QString uiFile = indicatorPath + "/package/" + metadata.value("X-Latte-MainScript");
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:517: app/CMakeFiles/latte-dock.dir/layout/abstractlayout.cpp.o] Error 1
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:125:79: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  125 |                 QString uiFile = indicatorPath + "/package/" + metadata.value("X-Latte-MainScript");
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:135:45: error: use of deleted function ‘QString::QString(const char*)’
+  135 |                 if ((metadata.pluginId() != "org.kde.latte.default")
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:135:45: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  135 |                 if ((metadata.pluginId() != "org.kde.latte.default")
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:136:52: error: use of deleted function ‘QString::QString(const char*)’
+  136 |                         && (metadata.pluginId() != "org.kde.latte.plasma")
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:136:52: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  136 |                         && (metadata.pluginId() != "org.kde.latte.plasma")
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:137:52: error: use of deleted function ‘QString::QString(const char*)’
+  137 |                         && (metadata.pluginId() != "org.kde.latte.plasmatabstyle")) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:137:52: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  137 |                         && (metadata.pluginId() != "org.kde.latte.plasmatabstyle")) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:184:9: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+  184 |         emit indicatorChanged(pluginChangedId);
+      |         ^~~~
+      |         exit
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In member function ‘void Latte::Indicator::Factory::removeIndicatorRecords(const QString&)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:211:42: error: invalid user-defined conversion from ‘char’ to ‘const QString&’ [-fpermissive]
+  211 |         QString pluginId =  path.section('/',-1);
+      |                                          ^~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: candidate is: ‘QString::QString(const char*)’ (near match)
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: conversion of argument 1 would be ill-formed:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:211:42: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+  211 |         QString pluginId =  path.section('/',-1);
+      |                                          ^~~
+      |                                          |
+      |                                          char
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:211:42: error: use of deleted function ‘QString::QString(const char*)’
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:211:42: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  211 |         QString pluginId =  path.section('/',-1);
+      |                                          ^~~
+/usr/include/qt6/QtCore/qstring.h:424:50: note: initializing argument 1 of ‘QString QString::section(const QString&, qsizetype, qsizetype, SectionFlags) const’
+  424 |     [[nodiscard]] QString section(const QString &in_sep, qsizetype start, qsizetype end = -1, SectionFlags flags = SectionDefault) const;
+      |                                   ~~~~~~~~~~~~~~~^~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In lambda function:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:227:13: error: ‘emit’ was not declared in this scope; did you mean ‘exit’?
+  227 |             emit indicatorRemoved(pluginId);
+      |             ^~~~
+      |             exit
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In member function ‘bool Latte::Indicator::Factory::isCustomType(const QString&) const’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:20: error: use of deleted function ‘QString::QString(const char*)’
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:20: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:55: error: use of deleted function ‘QString::QString(const char*)’
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:55: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:89: error: use of deleted function ‘QString::QString(const char*)’
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:234:89: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  234 |     return ((id != "org.kde.latte.default") && (id != "org.kde.latte.plasma") && (id != "org.kde.latte.plasmatabstyle"));
+      |                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In static member function ‘static bool Latte::Indicator::Factory::metadataAreValid(KPluginMetaData&)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:241:32: error: use of deleted function ‘QString::QString(const char*)’
+  241 |             && !metadata.value("X-Latte-MainScript").isEmpty();
+      |                                ^~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:241:32: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  241 |             && !metadata.value("X-Latte-MainScript").isEmpty();
+      |                                ^~~~~~~~~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In member function ‘QString Latte::Indicator::Factory::uiPath(QString) const’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:257:16: error: use of deleted function ‘QString::QString(const char*)’
+  257 |         return "";
+      |                ^~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:257:16: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  257 |         return "";
+      |                ^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In lambda function:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:283:47: error: use of deleted function ‘QString::QString(const char*)’
+  283 |         auto notification = new KNotification("import-fail", KNotification::CloseOnTimeout);
+      |                                               ^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:283:47: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  283 |         auto notification = new KNotification("import-fail", KNotification::CloseOnTimeout);
+      |                                               ^~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In lambda function:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:289:47: error: use of deleted function ‘QString::QString(const char*)’
+  289 |         auto notification = new KNotification("import-done", KNotification::CloseOnTimeout);
+      |                                               ^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:289:47: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  289 |         auto notification = new KNotification("import-done", KNotification::CloseOnTimeout);
+      |                                               ^~~~~~~~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In static member function ‘static Latte::ImportExport::State Latte::Indicator::Factory::importIndicatorFile(QString)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:355:55: error: use of deleted function ‘QString::QString(const QByteArray&)’
+  355 |         QString output(process.readAllStandardOutput());
+      |                                                       ^
+/usr/include/qt6/QtCore/qstring.h:1105:5: note: declared here
+ 1105 |     QString(const QByteArray &a) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:355:55: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  355 |         QString output(process.readAllStandardOutput());
+      |                                                       ^
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In member function ‘void Latte::Indicator::Factory::removeIndicator(QString)’:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:383:40: warning: zero as null pointer constant [-Wzero-as-null-pointer-constant]
+  383 |                                        0,
+      |                                        ^
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp: In lambda function:
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:389:55: error: use of deleted function ‘QString::QString(const char*)’
+  389 |                 auto notification = new KNotification("remove-done", KNotification::CloseOnTimeout);
+      |                                                       ^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstring.h:1104:5: note: declared here
+ 1104 |     QString(const char *ch) QSTRING_DECL_DELETED_ASCII_OP;
+      |     ^~~~~~~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:389:55: note: use ‘-fdiagnostics-all-candidates’ to display considered candidates
+  389 |                 auto notification = new KNotification("remove-done", KNotification::CloseOnTimeout);
+      |                                                       ^~~~~~~~~~~~~
+In file included from /usr/include/qt6/QtCore/qstring.h:1770:
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QString&; B = const char (&)[18]; type = QStringBuilder<QString&, const char (&)[18]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QString&; B = const char (&)[18]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QString&; B = const char (&)[18]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:45:41:   required from here
+   45 |         m_mainPaths[i] = m_mainPaths[i] + "/latte/indicators";
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 18]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const QString&; B = const char (&)[15]; type = QStringBuilder<const QString&, const char (&)[15]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = const QString&; B = const char (&)[15]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = const QString&; B = const char (&)[15]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:265:42:   required from here
+  265 |     QString metadataFile = directoryPath + "/metadata.json";
+      |                            ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 15]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const QString&; B = const char (&)[18]; type = QStringBuilder<const QString&, const char (&)[18]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = const QString&; B = const char (&)[18]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = const QString&; B = const char (&)[18]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:271:34:   required from here
+  271 |     metadataFile = directoryPath + "/metadata.desktop";
+      |                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 18]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]; type = QStringBuilder<QStringBuilder<const char (&)[18], const QString&>, const char (&)[20]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:396:59:   required from here
+  396 |             process.start(QString("kpackagetool5 -r " +id + " -t Latte/Indicator"));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 20]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QString&; B = const char (&)[19]; type = QStringBuilder<QString&, const char (&)[19]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37:   required from ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<QString&, const char (&)[19]>; B = QString; type = QStringBuilder<QStringBuilder<QString&, const char (&)[19]>, QString>]’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<QString&, const char (&)[19]>; B = QString]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<QString&, const char (&)[19]>; B = QString; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:344:71:   required from here
+  344 |         QString installPath = standardPaths[0] + "/latte/indicators/" + metadata.pluginId();
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 19]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<const char (&)[4], QString&>; B = const char (&)[2]; type = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37:   required from ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&; type = QStringBuilder<QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>, QString&>]’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:353:56:   required from here
+  353 |         process.start(QString("mv " +packagePath + " " + installPath));
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:400:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  400 |         QConcatenableEx<B>::appendTo(p.b, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 2]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const char (&)[18]; B = const QString&; type = QStringBuilder<const char (&)[18], const QString&>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37:   required from ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]; type = QStringBuilder<QStringBuilder<const char (&)[18], const QString&>, const char (&)[20]>]’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<const char (&)[18], const QString&>; B = const char (&)[20]; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:396:59:   required from here
+  396 |             process.start(QString("kpackagetool5 -r " +id + " -t Latte/Indicator"));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 18]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+/usr/include/qt6/QtCore/qstringbuilder.h: In instantiation of ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = const char (&)[4]; B = QString&; type = QStringBuilder<const char (&)[4], QString&>]’:
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37:   recursively required from ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<const char (&)[4], QString&>; B = const char (&)[2]; type = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>]’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37:   required from ‘static void QConcatenable<QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> > >::appendTo(const type&, T*&) [with T = QChar; A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&; type = QStringBuilder<QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>, QString&>]’
+/usr/include/qt6/QtCore/qstringbuilder.h:113:31:   required from ‘T QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::convertTo() const [with T = QString; A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&]’
+  113 |         Concatenable::appendTo(*this, d);
+      |         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:130:61:   required from ‘QStringBuilder< <template-parameter-1-1>, <template-parameter-1-2> >::operator ConvertTo() const [with A = QStringBuilder<QStringBuilder<const char (&)[4], QString&>, const char (&)[2]>; B = QString&; ConvertTo = QString]’
+  130 |     operator ConvertTo() const { return convertTo<ConvertTo>(); }
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~
+/home/sam/Documents/dev/latte-dock/app/indicator/factory.cpp:353:56:   required from here
+  353 |         process.start(QString("mv " +packagePath + " " + installPath));
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:399:37: error: cannot convert ‘QChar*’ to ‘char*&’
+  399 |         QConcatenableEx<A>::appendTo(p.a, out);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/usr/include/qt6/QtCore/qstringbuilder.h:288:57: note: initializing argument 2 of ‘static void QConcatenable<const char [N]>::appendTo(const char*, char*&) [with long long int N = 4]’
+  288 |     static inline void appendTo(const char a[N], char *&out)
+      |                                                  ~~~~~~~^~~
+make[2]: *** [app/CMakeFiles/latte-dock.dir/build.make:503: app/CMakeFiles/latte-dock.dir/indicator/factory.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1316: app/CMakeFiles/latte-dock.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
