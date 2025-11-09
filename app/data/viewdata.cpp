@@ -155,7 +155,7 @@ View::operator QString() const
 
     result += id;
     result += QStringLiteral(" : ");
-    result += isActive ? "Active" : "Inactive";
+    result += isActive ? QStringLiteral("Active") : QStringLiteral("Inactive");
     result += QStringLiteral(" : ");
     if (m_state==OriginFromLayout && isMoveOrigin) {
         result += QStringLiteral(" ↑ ");
@@ -181,7 +181,7 @@ View::operator QString() const
 
     result += QStringLiteral(" : ");
     if (isCloned()) {
-        result += (QStringLiteral("Cloned from:")+ isClonedFrom);
+        result += (QStringLiteral("Cloned from:") + QString::number(isClonedFrom));
     } else {
         result += QStringLiteral("Original");
     }
@@ -218,18 +218,18 @@ View::operator QString() const
     } else if (alignment == Latte::Types::Right) {
         result += QStringLiteral("RightAlignment");
     } else if (alignment == Latte::Types::Top) {
-        result += "TopAlignment";
+        result += QStringLiteral("TopAlignment");
     } else if (alignment == Latte::Types::Bottom) {
-        result += "BottomAlignment";
+        result += QStringLiteral("BottomAlignment");
     } else if (alignment == Latte::Types::Justify) {
-        result += "JustifyAlignment";
+        result += QStringLiteral("JustifyAlignment");
     }
 
     result += QStringLiteral(" : ");
-    result += QString::number(maxLength) + "%";
+    result += QString::number(maxLength) + QStringLiteral("%");
 
-    result += " || ";
-    result += "{" + subcontainments + "}";
+    result += QStringLiteral(" || ");
+    result += QStringLiteral("{") + subcontainments + QStringLiteral("}");
 
     return result;
 }

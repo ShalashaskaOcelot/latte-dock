@@ -41,7 +41,8 @@ uint Environment::longDuration() const
 
 uint Environment::frameworksVersion() const
 {
-    return Plasma::version();
+    // In Plasma 6, use the version macro directly
+    return PLASMA_VERSION;
 }
 
 uint Environment::plasmaDesktopVersion()
