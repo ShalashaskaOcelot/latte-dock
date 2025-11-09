@@ -465,7 +465,7 @@ void LayoutManager::restoreOptions()
 
 void LayoutManager::restoreOption(const char *option)
 {
-    QList<int> applets = toIntList((*m_configuration)[m_option[option]].toString());
+    QList<int> applets = toIntList((*m_configuration)[m_option[QLatin1String(option)]].toString());
 
     if (option == ISAPPLETLOCKEDOPTION) {
         setLockedZoomApplets(applets);
