@@ -61,7 +61,7 @@ uint Environment::makeVersion(uint major, uint minor, uint release) const
 uint Environment::identifyPlasmaDesktopVersion()
 {
     //! Identify Plasma Desktop version
-    QStringList plasmaDesktopVersionParts = QString(PLASMA_WORKSPACE_VERSION).split(".");
+    QStringList plasmaDesktopVersionParts = QString::fromLatin1(PLASMA_WORKSPACE_VERSION).split(QStringLiteral("."));
 
     if (plasmaDesktopVersionParts.count() == 3) {
         qDebug() << " /////////////////////////";
