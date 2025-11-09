@@ -12,6 +12,7 @@
 #include <QDir>
 #include <QDebug>
 #include <QFile>
+#include <QObject>
 #include <QLatin1String>
 
 // KDE
@@ -292,9 +293,9 @@ QString AbstractLayout::defaultTextColor(const QString &color)
     }  else if (color == QLatin1String("red")) {
         return "#F3E4E4";
     }  else if (color == QLatin1String("wheat")) {
-        return "#6A4E25";
+        return QStringLiteral("#6A4E25");
     }  else {
-        return "#FCFCFC";
+        return QStringLiteral("#FCFCFC");
     }
 }
 
@@ -354,11 +355,11 @@ QList<Plasma::Types::Location> combinedFreeEdges(const QList<Plasma::Types::Loca
 
 QString AbstractLayout::layoutName(const QString &fileName)
 {
-    int lastSlash = fileName.lastIndexOf("/");
+    int lastSlash = fileName.lastIndexOf(QStringLiteral("/"));
     QString tempLayoutFile = fileName;
     QString layoutName = tempLayoutFile.remove(0, lastSlash + 1);
 
-    int ext = layoutName.lastIndexOf(".layout.latte");
+    int ext = layoutName.lastIndexOf(QStringLiteral(".layout.latte"));
     layoutName = layoutName.remove(ext, 13);
 
     return layoutName;
@@ -379,22 +380,22 @@ void AbstractLayout::loadConfig()
     m_preferredForShortcutsTouched = m_layoutGroup.readEntry("preferredForShortcutsTouched", false);
     m_popUpMargin = m_layoutGroup.readEntry("popUpMargin", -1);
 
-    m_color = m_layoutGroup.readEntry("color", QString("blue"));
+    m_color = m_layoutGroup.readEntry("color", QStringLiteral("blue"));
     m_backgroundStyle = static_cast<BackgroundStyle>(m_layoutGroup.readEntry("backgroundStyle", (int)ColorBackgroundStyle));
 
-    m_schemeFile = m_layoutGroup.readEntry("schemeFile", QString(Data::Layout::DEFAULTSCHEMEFILE));
+    m_schemeFile = m_layoutGroup.readEntry("schemeFile", QLatin1String(Data::Layout::DEFAULTSCHEMEFILE));
 
-    if (m_schemeFile.startsWith("~")) {
+    if (m_schemeFile.startsWith(QStringLiteral("~"))) {
         m_schemeFile.remove(0, 1);
         m_schemeFile = QDir::homePath() + m_schemeFile;
     }
 
-    m_schemeFile = m_schemeFile.isEmpty() || !QFileInfo(m_schemeFile).exists() ? Data::Layout::DEFAULTSCHEMEFILE : m_schemeFile;
+    m_schemeFile = m_schemeFile.isEmpty() || !QFileInfo(m_schemeFile).exists() ? QLatin1String(Data::Layout::DEFAULTSCHEMEFILE) : m_schemeFile;
 
     QString deprecatedTextColor = m_layoutGroup.readEntry("textColor", QString());
     QString deprecatedBackground = m_layoutGroup.readEntry("background", QString());
 
-    if (deprecatedBackground.startsWith("/")) {
+    if (deprecatedBackground.startsWith(QStringLiteral("/"))) {
         m_customBackground = deprecatedBackground;
         m_customTextColor = deprecatedTextColor;
         setBackgroundStyle(PatternBackgroundStyle);
@@ -429,9 +430,9 @@ void AbstractLayout::saveConfig()
 
     if (scmfile.startsWith(QDir::homePath())) {
         scmfile.remove(0, QDir::homePath().size());
-        scmfile = "~" + scmfile;
+        scmfile = QStringLiteral("~") + scmfile;
     }
-    m_layoutGroup.writeEntry("schemeFile", scmfile == Data::Layout::DEFAULTSCHEMEFILE ? "" : scmfile);
+    m_layoutGroup.writeEntry("schemeFile", scmfile == QLatin1String(Data::Layout::DEFAULTSCHEMEFILE) ? QString() : scmfile);
 
     m_layoutGroup.sync();
 }

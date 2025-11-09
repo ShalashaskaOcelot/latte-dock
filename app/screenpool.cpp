@@ -14,6 +14,7 @@
 #include <QDebug>
 #include <QFile>
 #include <QGuiApplication>
+#include <QObject>
 #include <QScreen>
 
 // KDE
@@ -148,7 +149,7 @@ Latte::Data::ScreensTable ScreenPool::screensTable()
 
 void ScreenPool::reload(QString path)
 {
-    QFile rcfile(QString(path + "/lattedockrc"));
+    QFile rcfile(path + QStringLiteral("/lattedockrc"));
 
     if (rcfile.exists()) {
         qDebug() << "load screen connectors from ::: " << rcfile.fileName();
