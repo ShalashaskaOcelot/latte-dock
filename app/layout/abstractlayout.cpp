@@ -80,7 +80,7 @@ void AbstractLayout::setVersion(int ver)
 
     m_version = ver;
 
-    emit versionChanged();
+    Q_EMIT versionChanged();
 }
 
 
@@ -96,7 +96,7 @@ void AbstractLayout::setPreferredForShortcutsTouched(bool touched)
     }
 
     m_preferredForShortcutsTouched = touched;
-    emit preferredForShortcutsTouchedChanged();
+    Q_EMIT preferredForShortcutsTouchedChanged();
 }
 
 int AbstractLayout::popUpMargin() const
@@ -111,7 +111,7 @@ void AbstractLayout::setPopUpMargin(const int &margin)
     }
 
     m_popUpMargin = margin;
-    emit popUpMarginChanged();
+    Q_EMIT popUpMarginChanged();
 }
 
 QString AbstractLayout::background() const
@@ -135,7 +135,7 @@ void AbstractLayout::setSchemeFile(const QString &file)
     }
 
     m_schemeFile = file;
-    emit schemeFileChanged();
+    Q_EMIT schemeFileChanged();
 }
 
 QString AbstractLayout::textColor() const
@@ -159,7 +159,7 @@ void AbstractLayout::setBackgroundStyle(const BackgroundStyle &style)
     }
 
     m_backgroundStyle = style;
-    emit backgroundStyleChanged();
+    Q_EMIT backgroundStyleChanged();
 }
 
 
@@ -176,7 +176,7 @@ void AbstractLayout::setCustomBackground(const QString &background)
 
     m_customBackground = background;
 
-    emit customBackgroundChanged();
+    Q_EMIT customBackgroundChanged();
 }
 
 QString AbstractLayout::file() const
@@ -197,7 +197,7 @@ void AbstractLayout::setFile(QString file)
     KSharedConfigPtr filePtr = KSharedConfig::openConfig(m_layoutFile);
     m_layoutGroup = KConfigGroup(filePtr, "LayoutSettings");
 
-    emit fileChanged();
+    Q_EMIT fileChanged();
 }
 
 QString AbstractLayout::name() const
@@ -215,7 +215,7 @@ void AbstractLayout::setName(QString name)
 
     m_layoutName = name;
 
-    emit nameChanged();
+    Q_EMIT nameChanged();
 }
 
 QString AbstractLayout::color() const
@@ -230,7 +230,7 @@ void AbstractLayout::setColor(QString color)
     }
 
     m_color = color;
-    emit colorChanged();
+    Q_EMIT colorChanged();
 }
 
 QString AbstractLayout::icon() const
@@ -245,7 +245,7 @@ void AbstractLayout::setIcon(const QString &icon)
     }
 
     m_icon = icon;
-    emit iconChanged();
+    Q_EMIT iconChanged();
 }
 
 QString AbstractLayout::lastUsedActivity() const
@@ -256,7 +256,7 @@ QString AbstractLayout::lastUsedActivity() const
 void AbstractLayout::clearLastUsedActivity()
 {
     m_lastUsedActivity = QString();
-    emit lastUsedActivityChanged();
+    Q_EMIT lastUsedActivityChanged();
 }
 
 QString AbstractLayout::defaultCustomTextColor()
@@ -316,7 +316,7 @@ void AbstractLayout::setCustomTextColor(const QString &customColor)
     }
 
     m_customTextColor = customColor;
-    emit customTextColorChanged();
+    Q_EMIT customTextColorChanged();
 }
 
 QStringList AbstractLayout::launchers() const
@@ -331,7 +331,7 @@ void AbstractLayout::setLaunchers(QStringList launcherList)
 
     m_launchers = launcherList;
 
-    emit launchersChanged();
+    Q_EMIT launchersChanged();
 }
 
 Type AbstractLayout::type() const
